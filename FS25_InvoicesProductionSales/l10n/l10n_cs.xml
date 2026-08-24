@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="生产销售" />
+        <e k="ips_tab_market" v="市场" />
+        <e k="ips_tab_offers" v="我的报价" />
+        <e k="ips_tab_batches" v="我的销售" />
+        <e k="ips_section_paidPurchases" v="已付款采购（本月）" />
+        <e k="ips_section_paidSalesPendingInvoice" v="已付款销售，等待汇总发票（本月）" />
+        <e k="ips_col_seller" v="卖方" />
+        <e k="ips_col_production" v="生产设施" />
+        <e k="ips_col_product" v="产品" />
+        <e k="ips_col_mode" v="模式" />
+        <e k="ips_col_stock" v="库存" />
+        <e k="ips_col_pallets" v="托盘" />
+        <e k="ips_col_price" v="价格 / 1,000 升" />
+        <e k="ips_col_buyer" v="买方" />
+        <e k="ips_col_volume" v="数量" />
+        <e k="ips_col_amount" v="金额" />
+        <e k="ips_col_volumeSold" v="已售数量" />
+        <e k="ips_col_amountReceived" v="已收金额" />
+        <e k="ips_col_billing" v="开票" />
+        <e k="ips_col_status" v="状态" />
+        <e k="ips_mode_bulk" v="散装" />
+        <e k="ips_mode_pallets" v="托盘" />
+        <e k="ips_status_active" v="已发布" />
+        <e k="ips_status_inactive" v="已关闭" />
+        <e k="ips_status_paid" v="已付" />
+        <e k="ips_status_pending" v="待处理" />
+        <e k="ips_btn_refresh" v="刷新" />
+        <e k="ips_btn_buyPallets" v="购买托盘" />
+        <e k="ips_btn_activate" v="发布出售信息" />
+        <e k="ips_btn_deactivate" v="关闭出售信息" />
+        <e k="ips_btn_editPrice" v="修改价格" />
+        <e k="ips_btn_closeBatch" v="开具发票" />
+        <e k="ips_label_pricePer1000L" v="每 1,000 升价格" />
+        <e k="ips_label_palletQuantity" v="托盘数量" />
+        <e k="ips_label_availablePallets" v="可用满载托盘" />
+        <e k="ips_label_taxIncluded" v="含税" />
+        <e k="ips_dialog_price_prompt" v="输入每 1,000 升的含税价格" />
+        <e k="ips_dialog_offerQuantity_prompt" v="输入要上架的升数（最大：%s）" />
+        <e k="ips_dialog_pallet_prompt" v="要购买的满载托盘数量（最多 %d 个）" />
+        <e k="ips_confirm_bulk" v="是否开始装载 %s（生产设施 %s，卖方 %s，价格为每 1,000 升 %s）？" />
+        <e k="ips_confirm_pallets" v="是否购买 %d 个装有 %s 的满载托盘（卖方 %s，价格 %s）？" />
+        <e k="ips_confirm_activate" v="是否在市场发布 %s（来自 %s）？" />
+        <e k="ips_confirm_deactivate" v="是否关闭 %s（来自 %s）的出售信息？" />
+        <e k="ips_confirm_closeBatch" v="是否立即为 %s 开具总额为 %s 的已付款汇总发票？" />
+        <e k="ips_notice_offerSaved" v="生产出售信息已发布。" />
+        <e k="ips_notice_priceUpdated" v="销售价格已更新。" />
+        <e k="ips_notice_offerClosed" v="生产出售信息已关闭。" />
+        <e k="ips_notice_batchClosed" v="已开具已付款汇总发票。" />
+        <e k="ips_notice_batchClosedEmpty" v="没有可开票的内容，未开具汇总发票。" />
+        <e k="ips_notice_palletsPurchased" v="托盘购买成功完成。" />
+        <e k="ips_notice_receiptCreated" v="已创建已付款发票 %s。" />
+        <e k="ips_notice_receiptPaid" v="已收到已付款发票 %s。" />
+        <e k="ips_notice_loadingStoppedFunds" v="装载已停止：你的农场无法支付更多数量。" />
+        <e k="ips_error_invoiceIncompatible" v="不支持的 FS25_Invoices 版本或 API。生产销售已禁用。" />
+        <e k="ips_error_noPermission" v="只有农场管理员才能执行此操作。" />
+        <e k="ips_error_noFarm" v="没有可用的有效玩家农场。" />
+        <e k="ips_error_noOffers" v="没有可用的生产出售信息。" />
+        <e k="ips_error_noBatches" v="没有等待开票的已付款销售。" />
+        <e k="ips_error_noStock" v="此生产输出已无库存。" />
+        <e k="ips_error_noFullPallets" v="没有可用的满载产出托盘。" />
+        <e k="ips_error_insufficientFunds" v="你的农场没有足够资金完成此购买。" />
+        <e k="ips_error_offerUnavailable" v="此生产出售信息已不可用。" />
+        <e k="ips_error_offerChanged" v="出售信息已变更。请刷新市场后重试。" />
+        <e k="ips_error_invalidPrice" v="销售价格必须至少为每 1,000 升 1。" />
+        <e k="ips_error_invalidQuantity" v="上架数量必须是 1 升至可用库存之间的整数。" />
+        <e k="ips_error_outputMode" v="生产输出必须使用储存分配模式。" />
+        <e k="ips_error_transactionFailed" v="无法安全完成购买。" />
+        <e k="ips_error_serverUnavailable" v="服务器上的生产销售服务不可用。" />
+        <e k="ips_receipt_noteAutomatic" v="此发票为自动创建。" />
+    </elements>
+</l10n>

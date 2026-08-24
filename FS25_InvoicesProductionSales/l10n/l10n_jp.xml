@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="生産物販売" />
+        <e k="ips_tab_market" v="市場" />
+        <e k="ips_tab_offers" v="自分の出品" />
+        <e k="ips_tab_batches" v="自分の販売" />
+        <e k="ips_section_paidPurchases" v="支払済み購入（今月）" />
+        <e k="ips_section_paidSalesPendingInvoice" v="集計請求書の発行待ちの支払済み販売（今月）" />
+        <e k="ips_col_seller" v="販売者" />
+        <e k="ips_col_production" v="生産施設" />
+        <e k="ips_col_product" v="製品" />
+        <e k="ips_col_mode" v="形態" />
+        <e k="ips_col_stock" v="在庫" />
+        <e k="ips_col_pallets" v="パレット" />
+        <e k="ips_col_price" v="価格 / 1,000 l" />
+        <e k="ips_col_buyer" v="購入者" />
+        <e k="ips_col_volume" v="数量" />
+        <e k="ips_col_amount" v="金額" />
+        <e k="ips_col_volumeSold" v="販売数量" />
+        <e k="ips_col_amountReceived" v="受取金額" />
+        <e k="ips_col_billing" v="請求" />
+        <e k="ips_col_status" v="状態" />
+        <e k="ips_mode_bulk" v="バルク" />
+        <e k="ips_mode_pallets" v="パレット" />
+        <e k="ips_status_active" v="出品中" />
+        <e k="ips_status_inactive" v="出品終了" />
+        <e k="ips_status_paid" v="支払い済み" />
+        <e k="ips_status_pending" v="未払い" />
+        <e k="ips_btn_refresh" v="更新" />
+        <e k="ips_btn_buyPallets" v="パレットを購入" />
+        <e k="ips_btn_activate" v="出品する" />
+        <e k="ips_btn_deactivate" v="出品を終了" />
+        <e k="ips_btn_editPrice" v="価格を変更" />
+        <e k="ips_btn_closeBatch" v="請求書を発行" />
+        <e k="ips_label_pricePer1000L" v="1,000 l 当たりの価格" />
+        <e k="ips_label_palletQuantity" v="パレット数" />
+        <e k="ips_label_availablePallets" v="購入可能な満載パレット" />
+        <e k="ips_label_taxIncluded" v="税込み" />
+        <e k="ips_dialog_price_prompt" v="1,000 リットル当たりの税込価格を入力" />
+        <e k="ips_dialog_offerQuantity_prompt" v="出品する数量をリットル単位で入力（上限：%s）" />
+        <e k="ips_dialog_pallet_prompt" v="購入する満載パレット数（最大 %d）" />
+        <e k="ips_confirm_bulk" v="%s を生産施設 %s から、販売者 %s、1,000 l 当たり %s で積み込みますか？" />
+        <e k="ips_confirm_pallets" v="%d 個の満載パレット（%s）を %s から %s で購入しますか？" />
+        <e k="ips_confirm_activate" v="%s（%s）を市場に出品しますか？" />
+        <e k="ips_confirm_deactivate" v="%s（%s）の出品を終了しますか？" />
+        <e k="ips_confirm_closeBatch" v="%s の合計 %s の支払済み集計請求書を今すぐ発行しますか？" />
+        <e k="ips_notice_offerSaved" v="生産物を出品しました。" />
+        <e k="ips_notice_priceUpdated" v="販売価格を更新しました。" />
+        <e k="ips_notice_offerClosed" v="生産物の出品を終了しました。" />
+        <e k="ips_notice_batchClosed" v="支払済み集計請求書を発行しました。" />
+        <e k="ips_notice_batchClosedEmpty" v="請求する内容がなかったため、集計請求書は発行されませんでした。" />
+        <e k="ips_notice_palletsPurchased" v="パレットの購入が完了しました。" />
+        <e k="ips_notice_receiptCreated" v="支払済み請求書 %s を作成しました。" />
+        <e k="ips_notice_receiptPaid" v="支払済み請求書 %s を受領しました。" />
+        <e k="ips_notice_loadingStoppedFunds" v="積み込みを停止しました：農場は追加分を支払えません。" />
+        <e k="ips_error_invoiceIncompatible" v="FS25_Invoices のバージョンまたは API が非対応です。生産物販売は無効です。" />
+        <e k="ips_error_noPermission" v="この操作は農場管理者のみ実行できます。" />
+        <e k="ips_error_noFarm" v="有効なプレイヤー農場がありません。" />
+        <e k="ips_error_noOffers" v="購入可能な生産物はありません。" />
+        <e k="ips_error_noBatches" v="請求書の発行を待っている支払済み販売はありません。" />
+        <e k="ips_error_noStock" v="この生産出力は在庫切れです。" />
+        <e k="ips_error_noFullPallets" v="購入可能な満載の生産パレットはありません。" />
+        <e k="ips_error_insufficientFunds" v="この購入に必要な農場資金がありません。" />
+        <e k="ips_error_offerUnavailable" v="この生産物は購入できなくなりました。" />
+        <e k="ips_error_offerChanged" v="出品内容が変更されました。市場を更新して再試行してください。" />
+        <e k="ips_error_invalidPrice" v="販売価格は 1,000 リットル当たり 1 以上にしてください。" />
+        <e k="ips_error_invalidQuantity" v="出品数量は 1 リットルから利用可能な在庫までの整数でなければなりません。" />
+        <e k="ips_error_outputMode" v="生産出力の配送モードを保管に設定してください。" />
+        <e k="ips_error_transactionFailed" v="購入を安全に完了できませんでした。" />
+        <e k="ips_error_serverUnavailable" v="サーバーで生産物販売サービスを利用できません。" />
+        <e k="ips_receipt_noteAutomatic" v="この請求書は自動的に作成されました。" />
+    </elements>
+</l10n>

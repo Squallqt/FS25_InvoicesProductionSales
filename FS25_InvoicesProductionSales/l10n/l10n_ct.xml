@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="生產銷售" />
+        <e k="ips_tab_market" v="市場" />
+        <e k="ips_tab_offers" v="我的報價" />
+        <e k="ips_tab_batches" v="我的銷售" />
+        <e k="ips_section_paidPurchases" v="已付款採購（本月）" />
+        <e k="ips_section_paidSalesPendingInvoice" v="已付款銷售，等待彙總發票（本月）" />
+        <e k="ips_col_seller" v="賣方" />
+        <e k="ips_col_production" v="生產設施" />
+        <e k="ips_col_product" v="產品" />
+        <e k="ips_col_mode" v="模式" />
+        <e k="ips_col_stock" v="庫存" />
+        <e k="ips_col_pallets" v="棧板" />
+        <e k="ips_col_price" v="價格 / 1,000 公升" />
+        <e k="ips_col_buyer" v="買方" />
+        <e k="ips_col_volume" v="數量" />
+        <e k="ips_col_amount" v="金額" />
+        <e k="ips_col_volumeSold" v="已售數量" />
+        <e k="ips_col_amountReceived" v="已收金額" />
+        <e k="ips_col_billing" v="開票" />
+        <e k="ips_col_status" v="狀態" />
+        <e k="ips_mode_bulk" v="散裝" />
+        <e k="ips_mode_pallets" v="棧板" />
+        <e k="ips_status_active" v="已發佈" />
+        <e k="ips_status_inactive" v="已關閉" />
+        <e k="ips_status_paid" v="已付" />
+        <e k="ips_status_pending" v="待處理" />
+        <e k="ips_btn_refresh" v="重新整理" />
+        <e k="ips_btn_buyPallets" v="購買棧板" />
+        <e k="ips_btn_activate" v="發布出售資訊" />
+        <e k="ips_btn_deactivate" v="關閉出售資訊" />
+        <e k="ips_btn_editPrice" v="修改價格" />
+        <e k="ips_btn_closeBatch" v="開立發票" />
+        <e k="ips_label_pricePer1000L" v="每 1,000 公升價格" />
+        <e k="ips_label_palletQuantity" v="棧板數量" />
+        <e k="ips_label_availablePallets" v="可用滿載棧板" />
+        <e k="ips_label_taxIncluded" v="含稅" />
+        <e k="ips_dialog_price_prompt" v="輸入每 1,000 公升的含稅價格" />
+        <e k="ips_dialog_offerQuantity_prompt" v="輸入要刊登的公升數（上限：%s）" />
+        <e k="ips_dialog_pallet_prompt" v="要購買的滿載棧板數量（最多 %d 個）" />
+        <e k="ips_confirm_bulk" v="是否開始裝載 %s（生產設施 %s，賣方 %s，價格為每 1,000 公升 %s）？" />
+        <e k="ips_confirm_pallets" v="是否購買 %d 個裝有 %s 的滿載棧板（賣方 %s，價格 %s）？" />
+        <e k="ips_confirm_activate" v="是否在市場發布 %s（來自 %s）？" />
+        <e k="ips_confirm_deactivate" v="是否關閉 %s（來自 %s）的出售資訊？" />
+        <e k="ips_confirm_closeBatch" v="是否立即為 %s 開立總額為 %s 的已付款彙總發票？" />
+        <e k="ips_notice_offerSaved" v="生產出售資訊已發布。" />
+        <e k="ips_notice_priceUpdated" v="銷售價格已更新。" />
+        <e k="ips_notice_offerClosed" v="生產出售資訊已關閉。" />
+        <e k="ips_notice_batchClosed" v="已開立已付款彙總發票。" />
+        <e k="ips_notice_batchClosedEmpty" v="沒有可開票的內容，未開立彙總發票。" />
+        <e k="ips_notice_palletsPurchased" v="棧板購買成功完成。" />
+        <e k="ips_notice_receiptCreated" v="已建立已付款發票 %s。" />
+        <e k="ips_notice_receiptPaid" v="已收到已付款發票 %s。" />
+        <e k="ips_notice_loadingStoppedFunds" v="裝載已停止：你的農場無法支付更多數量。" />
+        <e k="ips_error_invoiceIncompatible" v="不支援的 FS25_Invoices 版本或 API。生產銷售已停用。" />
+        <e k="ips_error_noPermission" v="只有農場管理員才能執行此操作。" />
+        <e k="ips_error_noFarm" v="沒有可用的有效玩家農場。" />
+        <e k="ips_error_noOffers" v="沒有可用的生產出售資訊。" />
+        <e k="ips_error_noBatches" v="沒有等待開票的已付款銷售。" />
+        <e k="ips_error_noStock" v="此生產輸出已無庫存。" />
+        <e k="ips_error_noFullPallets" v="沒有可用的滿載產出棧板。" />
+        <e k="ips_error_insufficientFunds" v="你的農場沒有足夠資金完成此購買。" />
+        <e k="ips_error_offerUnavailable" v="此生產出售資訊已無法使用。" />
+        <e k="ips_error_offerChanged" v="出售資訊已變更。請重新整理市場後再試一次。" />
+        <e k="ips_error_invalidPrice" v="銷售價格必須至少為每 1,000 公升 1。" />
+        <e k="ips_error_invalidQuantity" v="刊登數量必須是 1 公升至可用庫存之間的整數。" />
+        <e k="ips_error_outputMode" v="生產輸出必須使用儲存分配模式。" />
+        <e k="ips_error_transactionFailed" v="無法安全完成購買。" />
+        <e k="ips_error_serverUnavailable" v="伺服器上的生產銷售服務無法使用。" />
+        <e k="ips_receipt_noteAutomatic" v="此發票為自動建立。" />
+    </elements>
+</l10n>

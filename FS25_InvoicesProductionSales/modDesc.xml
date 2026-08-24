@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="111">
+    <author>Squallqt</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Invoices - Production Sales</en>
+        <de>Rechnungen - Produktionsverkäufe</de>
+        <fr>Factures - Ventes de production</fr>
+    </title>
+    <description>
+        <en><![CDATA[Create a real farm-to-farm economy by trading stored production goods directly with other farms through Invoices.
+
+Production owners can publish selected outputs, choose the quantity they want to sell and set their own tax-inclusive price per 1,000 liters. Other farms can browse active offers in the Market, load bulk goods directly from the production or purchase full pallets. Payments are made immediately between farms, while completed transactions are automatically grouped into paid invoices.
+
+Features:
+- Farm-to-farm trading for stored production outputs
+- Seller-defined quantities and prices per 1,000 liters
+- Live market availability based on remaining offer quantity and physical stock
+- Paid bulk loading directly from production loading points
+- Purchase and ownership transfer of full production pallets
+- Immediate payments between buyer and seller farms
+- Automatic paid invoices grouped by seller and buyer
+- Automatic monthly closure and manual early batch closure
+- Integrated Market, My Offers and My Sales views inside Invoices
+- Multiplayer and dedicated-server support
+
+Requires FS25_Invoices version 1.2.0.0 or later.
+
+© 2026 Squallqt. All rights reserved.
+Please download this mod only from the official Farming Simulator ModHub and keep the original link. Reuploading, redistribution, modification or copying of this mod or any of its files, in whole or in part, is not permitted without the author's written consent.]]></en>
+        <de><![CDATA[Schaffen Sie eine echte Wirtschaft zwischen Betrieben, indem Sie gelagerte Produktionswaren über Rechnungen direkt mit anderen Betrieben handeln.
+
+Produktionseigentümer können ausgewählte Ausgänge veröffentlichen, die gewünschte Verkaufsmenge festlegen und ihren eigenen Bruttopreis je 1.000 Liter bestimmen. Andere Betriebe können aktive Angebote im Markt einsehen, Schüttgut direkt an der Produktion laden oder volle Paletten kaufen. Zahlungen erfolgen sofort zwischen den Betrieben, während abgeschlossene Transaktionen automatisch zu bereits bezahlten Rechnungen zusammengefasst werden.
+
+Funktionen:
+- Direkter Handel mit gelagerten Produktionswaren zwischen Betrieben
+- Vom Verkäufer festgelegte Mengen und Preise je 1.000 Liter
+- Aktuelle Marktverfügbarkeit anhand der Restmenge des Angebots und des tatsächlichen Lagerbestands
+- Bezahltes Schüttgutladen direkt an den Ladepunkten der Produktion
+- Kauf und Eigentumsübertragung voller Produktionspaletten
+- Sofortige Zahlungen zwischen Käufer- und Verkäuferbetrieb
+- Automatische bezahlte Rechnungen, gruppiert nach Verkäufer und Käufer
+- Automatischer Monatsabschluss und manuelle vorzeitige Sammelabrechnung
+- In Rechnungen integrierte Ansichten für Markt, Meine Angebote und Meine Verkäufe
+- Mehrspieler- und Dedicated-Server-Unterstützung
+
+Benötigt FS25_Invoices Version 1.2.0.0 oder neuer.
+
+© 2026 Squallqt. Alle Rechte vorbehalten.
+Bitte lade diesen Mod ausschließlich aus dem offiziellen Farming Simulator ModHub herunter und behalte den originalen Link bei. Das erneute Hochladen, die Weitergabe, Veränderung oder das Kopieren dieses Mods oder seiner Dateien, ganz oder teilweise, ist ohne die schriftliche Zustimmung des Autors nicht gestattet.]]></de>
+        <fr><![CDATA[Créez une véritable économie entre fermes en échangeant directement les marchandises stockées de vos productions avec les autres exploitations grâce à Factures.
+
+Les propriétaires de productions peuvent publier les sorties de leur choix, définir la quantité qu'ils souhaitent vendre et fixer leur propre prix TTC par tranche de 1 000 litres. Les autres fermes peuvent consulter les offres actives depuis le Marché, charger les produits en vrac directement à la production ou acheter des palettes pleines. Les paiements sont effectués immédiatement entre les fermes et les transactions réalisées sont automatiquement regroupées dans des factures déjà réglées.
+
+Fonctionnalités :
+- Commerce direct de marchandises de production entre fermes
+- Quantités et prix par 1 000 litres définis par le vendeur
+- Disponibilité du marché calculée selon le reliquat de l'offre et le stock physique réel
+- Chargement en vrac payant directement aux points de chargement des productions
+- Achat et transfert de propriété des palettes de production pleines
+- Paiements immédiats entre les fermes acheteuse et vendeuse
+- Factures réglées automatiquement, regroupées par vendeur et acheteur
+- Clôture mensuelle automatique et clôture manuelle anticipée des lots
+- Vues Marché, Mes offres et Mes ventes directement intégrées à Factures
+- Compatibilité multijoueur et serveur dédié
+
+Nécessite FS25_Invoices version 1.2.0.0 ou supérieure.
+
+© 2026 Squallqt. Tous droits réservés.
+Merci de télécharger ce mod uniquement depuis le ModHub officiel de Farming Simulator et de conserver le lien original. La remise en ligne, la redistribution, la modification ou la copie de ce mod ou de l'un de ses fichiers, en tout ou partie, ne sont pas autorisées sans l'accord écrit de l'auteur.]]></fr>
+    </description>
+    <iconFilename>icon_ips.dds</iconFilename>
+    <multiplayer supported="true" />
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/Main.lua" />
+    </extraSourceFiles>
+    <l10n filenamePrefix="l10n/l10n" />
+    <dependencies>
+        <dependency>FS25_Invoices</dependency>
+    </dependencies>
+</modDesc>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="Productieverkoop" />
+        <e k="ips_tab_market" v="MARKT" />
+        <e k="ips_tab_offers" v="MIJN AANBIEDINGEN" />
+        <e k="ips_tab_batches" v="MIJN VERKOPEN" />
+        <e k="ips_section_paidPurchases" v="BETAALDE AANKOPEN (HUIDIGE MAAND)" />
+        <e k="ips_section_paidSalesPendingInvoice" v="BETAALDE VERKOPEN WACHTEN OP VERZAMELFACTUUR (HUIDIGE MAAND)" />
+        <e k="ips_col_seller" v="Verkoper" />
+        <e k="ips_col_production" v="Productie" />
+        <e k="ips_col_product" v="Product" />
+        <e k="ips_col_mode" v="Modus" />
+        <e k="ips_col_stock" v="Voorraad" />
+        <e k="ips_col_pallets" v="Pallets" />
+        <e k="ips_col_price" v="Prijs / 1.000 l" />
+        <e k="ips_col_buyer" v="Koper" />
+        <e k="ips_col_volume" v="Volume" />
+        <e k="ips_col_amount" v="Bedrag" />
+        <e k="ips_col_volumeSold" v="Verkocht volume" />
+        <e k="ips_col_amountReceived" v="Ontvangen bedrag" />
+        <e k="ips_col_billing" v="Facturering" />
+        <e k="ips_col_status" v="Status" />
+        <e k="ips_mode_bulk" v="Losgestort" />
+        <e k="ips_mode_pallets" v="Pallets" />
+        <e k="ips_status_active" v="Open" />
+        <e k="ips_status_inactive" v="Gesloten" />
+        <e k="ips_status_paid" v="Betaald" />
+        <e k="ips_status_pending" v="In behandeling" />
+        <e k="ips_btn_refresh" v="Vernieuwen" />
+        <e k="ips_btn_buyPallets" v="Pallets kopen" />
+        <e k="ips_btn_activate" v="Aanbieding openen" />
+        <e k="ips_btn_deactivate" v="Aanbieding sluiten" />
+        <e k="ips_btn_editPrice" v="Prijs wijzigen" />
+        <e k="ips_btn_closeBatch" v="Factuur opstellen" />
+        <e k="ips_label_pricePer1000L" v="Prijs per 1.000 l" />
+        <e k="ips_label_palletQuantity" v="Aantal pallets" />
+        <e k="ips_label_availablePallets" v="Volle pallets beschikbaar" />
+        <e k="ips_label_taxIncluded" v="Inclusief btw" />
+        <e k="ips_dialog_price_prompt" v="Voer een prijs inclusief btw per 1.000 liter in" />
+        <e k="ips_dialog_offerQuantity_prompt" v="Voer de aangeboden hoeveelheid in liters in (maximum: %s)" />
+        <e k="ips_dialog_pallet_prompt" v="Aantal te kopen volle pallets (maximaal %d)" />
+        <e k="ips_confirm_bulk" v="Laden van %s uit productie %s, verkocht door %s voor %s per 1.000 l, starten?" />
+        <e k="ips_confirm_pallets" v="%d volle pallet(s) %s van %s kopen voor %s?" />
+        <e k="ips_confirm_activate" v="%s van %s op de markt aanbieden?" />
+        <e k="ips_confirm_deactivate" v="De aanbieding voor %s van %s sluiten?" />
+        <e k="ips_confirm_closeBatch" v="De reeds betaalde verzamelfactuur voor %s met een totaal van %s nu opstellen?" />
+        <e k="ips_notice_offerSaved" v="De productieaanbieding is geopend." />
+        <e k="ips_notice_priceUpdated" v="De verkoopprijs is bijgewerkt." />
+        <e k="ips_notice_offerClosed" v="De productieaanbieding is gesloten." />
+        <e k="ips_notice_batchClosed" v="De betaalde verzamelfactuur is opgesteld." />
+        <e k="ips_notice_batchClosedEmpty" v="Er was niets te factureren, er is geen verzamelfactuur opgesteld." />
+        <e k="ips_notice_palletsPurchased" v="De aankoop van de pallets is voltooid." />
+        <e k="ips_notice_receiptCreated" v="De betaalde factuur %s is aangemaakt." />
+        <e k="ips_notice_receiptPaid" v="De betaalde factuur %s is ontvangen." />
+        <e k="ips_notice_loadingStoppedFunds" v="Laden gestopt: je boerderij kan geen extra volume betalen." />
+        <e k="ips_error_invoiceIncompatible" v="Niet-ondersteunde versie of API van FS25_Invoices. Productieverkoop is uitgeschakeld." />
+        <e k="ips_error_noPermission" v="Alleen een boerderijbeheerder kan deze actie uitvoeren." />
+        <e k="ips_error_noFarm" v="Er is geen geldige spelersboerderij beschikbaar." />
+        <e k="ips_error_noOffers" v="Er zijn geen aanbiedingen voor productieverkoop beschikbaar." />
+        <e k="ips_error_noBatches" v="Er zijn geen betaalde verkopen die op facturering wachten." />
+        <e k="ips_error_noStock" v="Dit productieproduct is niet op voorraad." />
+        <e k="ips_error_noFullPallets" v="Er zijn geen volle uitvoerpallets beschikbaar." />
+        <e k="ips_error_insufficientFunds" v="Je boerderij heeft niet genoeg geld voor deze aankoop." />
+        <e k="ips_error_offerUnavailable" v="Deze productieaanbieding is niet meer beschikbaar." />
+        <e k="ips_error_offerChanged" v="De aanbieding is gewijzigd. Vernieuw de markt en probeer het opnieuw." />
+        <e k="ips_error_invalidPrice" v="De verkoopprijs moet minstens 1 per 1.000 liter zijn." />
+        <e k="ips_error_invalidQuantity" v="De aangeboden hoeveelheid moet een geheel aantal liters zijn tussen 1 en de beschikbare voorraad." />
+        <e k="ips_error_outputMode" v="De productie-uitvoer moet de distributiemodus Opslaan gebruiken." />
+        <e k="ips_error_transactionFailed" v="De aankoop kon niet veilig worden voltooid." />
+        <e k="ips_error_serverUnavailable" v="De productieverkoopdienst is niet beschikbaar op de server." />
+        <e k="ips_receipt_noteAutomatic" v="Deze factuur is automatisch aangemaakt." />
+    </elements>
+</l10n>

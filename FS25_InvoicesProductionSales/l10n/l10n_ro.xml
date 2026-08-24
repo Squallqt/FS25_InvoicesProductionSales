@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="Vânzări de producție" />
+        <e k="ips_tab_market" v="PIAȚĂ" />
+        <e k="ips_tab_offers" v="OFERTELE MELE" />
+        <e k="ips_tab_batches" v="VÂNZĂRILE MELE" />
+        <e k="ips_section_paidPurchases" v="ACHIZIȚII PLĂTITE (LUNA CURENTĂ)" />
+        <e k="ips_section_paidSalesPendingInvoice" v="VÂNZĂRI PLĂTITE ÎN AȘTEPTAREA FACTURII RECAPITULATIVE (LUNA CURENTĂ)" />
+        <e k="ips_col_seller" v="Vânzător" />
+        <e k="ips_col_production" v="Producție" />
+        <e k="ips_col_product" v="Produs" />
+        <e k="ips_col_mode" v="Mod" />
+        <e k="ips_col_stock" v="Stoc" />
+        <e k="ips_col_pallets" v="Paleți" />
+        <e k="ips_col_price" v="Preț / 1.000 l" />
+        <e k="ips_col_buyer" v="Cumpărător" />
+        <e k="ips_col_volume" v="Volum" />
+        <e k="ips_col_amount" v="Sumă" />
+        <e k="ips_col_volumeSold" v="Volum vândut" />
+        <e k="ips_col_amountReceived" v="Sumă încasată" />
+        <e k="ips_col_billing" v="Facturare" />
+        <e k="ips_col_status" v="Stare" />
+        <e k="ips_mode_bulk" v="Vrac" />
+        <e k="ips_mode_pallets" v="Paleți" />
+        <e k="ips_status_active" v="Deschisă" />
+        <e k="ips_status_inactive" v="Închisă" />
+        <e k="ips_status_paid" v="Plătită" />
+        <e k="ips_status_pending" v="În așteptare" />
+        <e k="ips_btn_refresh" v="Actualizează" />
+        <e k="ips_btn_buyPallets" v="Cumpără paleți" />
+        <e k="ips_btn_activate" v="Deschide oferta" />
+        <e k="ips_btn_deactivate" v="Închide oferta" />
+        <e k="ips_btn_editPrice" v="Modifică prețul" />
+        <e k="ips_btn_closeBatch" v="Emite factura" />
+        <e k="ips_label_pricePer1000L" v="Preț per 1.000 l" />
+        <e k="ips_label_palletQuantity" v="Număr de paleți" />
+        <e k="ips_label_availablePallets" v="Paleți plini disponibili" />
+        <e k="ips_label_taxIncluded" v="TVA inclus" />
+        <e k="ips_dialog_price_prompt" v="Introduceți un preț cu TVA per 1.000 de litri" />
+        <e k="ips_dialog_offerQuantity_prompt" v="Introduceți cantitatea oferită spre vânzare în litri (maximum: %s)" />
+        <e k="ips_dialog_pallet_prompt" v="Numărul de paleți plini de cumpărat (maximum %d)" />
+        <e k="ips_confirm_bulk" v="Începeți încărcarea produsului %s din producția %s, vândut de %s la %s per 1.000 l?" />
+        <e k="ips_confirm_pallets" v="Cumpărați %d paleți plini de %s de la %s pentru %s?" />
+        <e k="ips_confirm_activate" v="Publicați %s din %s pe piață?" />
+        <e k="ips_confirm_deactivate" v="Închideți oferta pentru %s din %s?" />
+        <e k="ips_confirm_closeBatch" v="Emiteți acum factura recapitulativă deja plătită pentru %s, în valoare de %s?" />
+        <e k="ips_notice_offerSaved" v="Oferta de producție a fost deschisă." />
+        <e k="ips_notice_priceUpdated" v="Prețul de vânzare a fost actualizat." />
+        <e k="ips_notice_offerClosed" v="Oferta de producție a fost închisă." />
+        <e k="ips_notice_batchClosed" v="Factura recapitulativă plătită a fost emisă." />
+        <e k="ips_notice_batchClosedEmpty" v="Nu a existat nimic de facturat, nu a fost emisă nicio factură recapitulativă." />
+        <e k="ips_notice_palletsPurchased" v="Achiziția paleților a fost finalizată cu succes." />
+        <e k="ips_notice_receiptCreated" v="Factura plătită %s a fost creată." />
+        <e k="ips_notice_receiptPaid" v="Factura plătită %s a fost primită." />
+        <e k="ips_notice_loadingStoppedFunds" v="Încărcare oprită: ferma nu poate plăti un volum suplimentar." />
+        <e k="ips_error_invoiceIncompatible" v="Versiune sau API FS25_Invoices neacceptată. Vânzările de producție sunt dezactivate." />
+        <e k="ips_error_noPermission" v="Doar un administrator al fermei poate efectua această acțiune." />
+        <e k="ips_error_noFarm" v="Nu este disponibilă nicio fermă validă a jucătorului." />
+        <e k="ips_error_noOffers" v="Nu sunt disponibile oferte de vânzare a producției." />
+        <e k="ips_error_noBatches" v="Nu există vânzări plătite în așteptarea facturării." />
+        <e k="ips_error_noStock" v="Această ieșire de producție nu mai are stoc." />
+        <e k="ips_error_noFullPallets" v="Nu sunt disponibili paleți de ieșire plini." />
+        <e k="ips_error_insufficientFunds" v="Ferma nu are suficienți bani pentru această achiziție." />
+        <e k="ips_error_offerUnavailable" v="Această ofertă de producție nu mai este disponibilă." />
+        <e k="ips_error_offerChanged" v="Oferta s-a modificat. Actualizați piața și încercați din nou." />
+        <e k="ips_error_invalidPrice" v="Prețul de vânzare trebuie să fie de cel puțin 1 per 1.000 de litri." />
+        <e k="ips_error_invalidQuantity" v="Cantitatea oferită trebuie să fie un număr întreg între 1 litru și stocul disponibil." />
+        <e k="ips_error_outputMode" v="Ieșirea de producție trebuie să folosească modul de distribuție Depozitare." />
+        <e k="ips_error_transactionFailed" v="Achiziția nu a putut fi finalizată în siguranță." />
+        <e k="ips_error_serverUnavailable" v="Serviciul de vânzări de producție nu este disponibil pe server." />
+        <e k="ips_receipt_noteAutomatic" v="Această factură a fost generată automat." />
+    </elements>
+</l10n>

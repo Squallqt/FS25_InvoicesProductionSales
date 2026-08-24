@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="Termelési értékesítés" />
+        <e k="ips_tab_market" v="PIAC" />
+        <e k="ips_tab_offers" v="SAJÁT AJÁNLATAIM" />
+        <e k="ips_tab_batches" v="ELADÁSAIM" />
+        <e k="ips_section_paidPurchases" v="KIFIZETETT VÁSÁRLÁSOK (AKTUÁLIS HÓNAP)" />
+        <e k="ips_section_paidSalesPendingInvoice" v="ÖSSZESÍTŐ SZÁMLÁRA VÁRÓ KIFIZETETT ELADÁSOK (AKTUÁLIS HÓNAP)" />
+        <e k="ips_col_seller" v="Eladó" />
+        <e k="ips_col_production" v="Termelés" />
+        <e k="ips_col_product" v="Termék" />
+        <e k="ips_col_mode" v="Mód" />
+        <e k="ips_col_stock" v="Készlet" />
+        <e k="ips_col_pallets" v="Raklapok" />
+        <e k="ips_col_price" v="Ár / 1 000 l" />
+        <e k="ips_col_buyer" v="Vevő" />
+        <e k="ips_col_volume" v="Mennyiség" />
+        <e k="ips_col_amount" v="Összeg" />
+        <e k="ips_col_volumeSold" v="Eladott mennyiség" />
+        <e k="ips_col_amountReceived" v="Beérkezett összeg" />
+        <e k="ips_col_billing" v="Számlázás" />
+        <e k="ips_col_status" v="Állapot" />
+        <e k="ips_mode_bulk" v="Ömlesztett" />
+        <e k="ips_mode_pallets" v="Raklapok" />
+        <e k="ips_status_active" v="Nyitott" />
+        <e k="ips_status_inactive" v="Lezárt" />
+        <e k="ips_status_paid" v="Fizetve" />
+        <e k="ips_status_pending" v="Függőben" />
+        <e k="ips_btn_refresh" v="Frissítés" />
+        <e k="ips_btn_buyPallets" v="Raklapok vásárlása" />
+        <e k="ips_btn_activate" v="Ajánlat megnyitása" />
+        <e k="ips_btn_deactivate" v="Ajánlat lezárása" />
+        <e k="ips_btn_editPrice" v="Ár módosítása" />
+        <e k="ips_btn_closeBatch" v="Számla kiállítása" />
+        <e k="ips_label_pricePer1000L" v="Ár 1 000 l-re" />
+        <e k="ips_label_palletQuantity" v="Raklapok száma" />
+        <e k="ips_label_availablePallets" v="Elérhető teli raklapok" />
+        <e k="ips_label_taxIncluded" v="Áfával" />
+        <e k="ips_dialog_price_prompt" v="Adja meg az 1 000 literre vonatkozó bruttó árat" />
+        <e k="ips_dialog_offerQuantity_prompt" v="Adja meg az eladásra kínált mennyiséget literben (maximum: %s)" />
+        <e k="ips_dialog_pallet_prompt" v="Megvásárolandó teli raklapok száma (legfeljebb %d)" />
+        <e k="ips_confirm_bulk" v="Megkezdődjön %s betöltése a(z) %s termelésből, %s eladótól, %s / 1 000 l áron?" />
+        <e k="ips_confirm_pallets" v="Megvásárol %d teli raklap %s terméket %s eladótól %s összegért?" />
+        <e k="ips_confirm_activate" v="Közzéteszi %s terméket %s termelésből a piacon?" />
+        <e k="ips_confirm_deactivate" v="Lezárja %s ajánlatát %s termelésből?" />
+        <e k="ips_confirm_closeBatch" v="Kiállítja most %s már kifizetett összesítő számláját %s összértékben?" />
+        <e k="ips_notice_offerSaved" v="A termelési ajánlat megnyílt." />
+        <e k="ips_notice_priceUpdated" v="Az eladási ár frissült." />
+        <e k="ips_notice_offerClosed" v="A termelési ajánlat lezárult." />
+        <e k="ips_notice_batchClosed" v="A kifizetett összesítő számla kiállításra került." />
+        <e k="ips_notice_batchClosedEmpty" v="Nem volt mit számlázni, összesítő számla nem került kiállításra." />
+        <e k="ips_notice_palletsPurchased" v="A raklapvásárlás sikeresen befejeződött." />
+        <e k="ips_notice_receiptCreated" v="A(z) %s kifizetett számla létrejött." />
+        <e k="ips_notice_receiptPaid" v="A(z) %s kifizetett számla megérkezett." />
+        <e k="ips_notice_loadingStoppedFunds" v="Betöltés leállítva: a gazdaság nem tud további mennyiséget kifizetni." />
+        <e k="ips_error_invoiceIncompatible" v="Nem támogatott FS25_Invoices-verzió vagy API. A termelési értékesítés ki van kapcsolva." />
+        <e k="ips_error_noPermission" v="Ezt a műveletet csak gazdaságvezető végezheti el." />
+        <e k="ips_error_noFarm" v="Nincs elérhető érvényes játékosgazdaság." />
+        <e k="ips_error_noOffers" v="Nincs elérhető termelési eladási ajánlat." />
+        <e k="ips_error_noBatches" v="Nincs számlázásra váró kifizetett eladás." />
+        <e k="ips_error_noStock" v="Ez a termelési kimenet elfogyott." />
+        <e k="ips_error_noFullPallets" v="Nincs elérhető teli kimeneti raklap." />
+        <e k="ips_error_insufficientFunds" v="A gazdaságnak nincs elég pénze ehhez a vásárláshoz." />
+        <e k="ips_error_offerUnavailable" v="Ez a termelési ajánlat már nem érhető el." />
+        <e k="ips_error_offerChanged" v="Az ajánlat megváltozott. Frissítse a piacot, és próbálja újra." />
+        <e k="ips_error_invalidPrice" v="Az eladási árnak legalább 1-nek kell lennie 1 000 literenként." />
+        <e k="ips_error_invalidQuantity" v="A meghirdetett mennyiségnek 1 liter és a rendelkezésre álló készlet közötti egész számnak kell lennie." />
+        <e k="ips_error_outputMode" v="A termelési kimenetnek a Tárolás elosztási módot kell használnia." />
+        <e k="ips_error_transactionFailed" v="A vásárlást nem sikerült biztonságosan befejezni." />
+        <e k="ips_error_serverUnavailable" v="A termelési értékesítési szolgáltatás nem érhető el a szerveren." />
+        <e k="ips_receipt_noteAutomatic" v="Ez a számla automatikusan jött létre." />
+    </elements>
+</l10n>

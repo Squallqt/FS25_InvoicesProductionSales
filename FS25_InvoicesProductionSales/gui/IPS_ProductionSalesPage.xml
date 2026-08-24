@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<InvoicesProductionSalesExtension>
+    <TabControls>
+        <Button profile="fs25_subCategorySelectorTabbedTab" id="ipsSubCategoryTab" text="$l10n_ips_menu_title" onClick="ipsOnClickSalesTopTab">
+            <ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background"/>
+        </Button>
+    </TabControls>
+
+    <PageControls>
+        <GuiElement profile="fs25_subCategorySelectorTabbedContainer" id="ipsSubCategoryPage" visible="false">
+            <BoxLayout profile="fs25_subCategorySelectorTabbedBox" id="ipsPrimaryViewBox" position="-63px -45px" size="1580px 57px">
+                <Button profile="fs25_subCategorySelectorTabbedTab" id="ipsMarketTab" text="$l10n_ips_tab_market" onClick="ipsOnClickMarketView">
+                    <ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background"/>
+                </Button>
+                <Button profile="fs25_subCategorySelectorTabbedTab" id="ipsOffersTab" text="$l10n_ips_tab_offers" onClick="ipsOnClickOffersView">
+                    <ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background"/>
+                </Button>
+                <Button profile="fs25_subCategorySelectorTabbedTab" id="ipsBatchesTab" text="$l10n_ips_tab_batches" onClick="ipsOnClickBatchesView">
+                    <ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background"/>
+                </Button>
+            </BoxLayout>
+            <ThreePartBitmap profile="fs25_lineSeparatorTopHighlighted" position="-63px -102px" size="100% 2dp"/>
+            <MultiTextOption profile="fs25_subCategorySelectorTabbed" id="ipsPrimaryViewPaging" position="-63px -55px" focusId="ipsPrimaryViewPaging" focusChangeBottom="ipsMarketList" onClick="ipsOnInternalViewPaging"/>
+
+            <!-- Market and current-month purchases -->
+            <GuiElement profile="invListContentArea" id="ipsMarketContent" position="0px -112px">
+                <GuiElement profile="fs25_statisticsHeaderBox" position="-63px 0px">
+                    <Text profile="invColumnHeaderBtn" position="20px -14px" size="220px 32px" text="$l10n_ips_col_seller"/>
+                    <Text profile="invColumnHeaderBtn" position="250px -14px" size="270px 32px" text="$l10n_ips_col_production"/>
+                    <Text profile="invColumnHeaderBtn" position="530px -14px" size="250px 32px" text="$l10n_ips_col_product"/>
+                    <Text profile="invColumnHeaderBtn" position="790px -14px" size="130px 32px" text="$l10n_ips_col_mode"/>
+                    <Text profile="invColumnHeaderBtn" position="930px -14px" size="180px 32px" text="$l10n_ips_col_stock"/>
+                    <Text profile="invColumnHeaderBtn" position="1120px -14px" size="120px 32px" text="$l10n_ips_col_pallets"/>
+                    <Text profile="invColumnHeaderBtn" position="1250px -14px" size="300px 32px" name="ipsMarketPriceHeader" text="$l10n_ips_col_price"/>
+                </GuiElement>
+                <ThreePartBitmap profile="fs25_lineSeparatorTop" position="-63px -48px" size="100% 1dp"/>
+
+                <SmoothList profile="invInvoiceList" id="ipsMarketList" position="-63px -50px" size="100% 318px" focusId="ipsMarketList" focusChangeTop="ipsPrimaryViewPaging" focusChangeBottom="ipsPurchasesList" selectedWithoutFocus="false">
+                    <ListItem profile="invInvoiceListItem">
+                        <ThreePartBitmap profile="invListItemGradient" name="alternating"/>
+                        <Text profile="invRowCellLeft" position="20px 0px" size="220px 32px" name="cellSeller"/>
+                        <Text profile="invRowCellDim" position="250px 0px" size="270px 32px" name="cellProduction"/>
+                        <BoxLayout profile="emptyPanel" position="530px 0px" size="250px 32px" flowDirection="horizontal" alignmentX="center" alignmentY="middle" numFlows="1" elementSpacing="4px" autoValidateLayout="true" wrapAround="false">
+                            <Bitmap profile="ftdCellIcon" size="28px 28px" name="cellProductIcon"/>
+                            <Text profile="invRowCellDim" size="0px 32px" textAutoWidth="true" textMaxWidth="218px" name="cellProduct"/>
+                        </BoxLayout>
+                        <Text profile="invRowCellCenter" position="790px 0px" size="130px 32px" name="cellMode"/>
+                        <Text profile="invRowCellRight" position="930px 0px" size="180px 32px" name="cellStock"/>
+                        <Text profile="invRowCellCenter" position="1120px 0px" size="120px 32px" name="cellPallets"/>
+                        <Text profile="invRowCellRight" position="1250px 0px" size="300px 32px" name="cellPrice"/>
+                    </ListItem>
+                </SmoothList>
+                <GuiElement profile="invListContentArea" id="ipsMarketEmpty" position="0px -50px" visible="false">
+                    <Text profile="invEmptyStateText" position="540px -150px" text="$l10n_ips_error_noOffers"/>
+                </GuiElement>
+
+                <GuiElement profile="fs25_statisticsHeaderBox" position="-63px -382px" size="1580px 102px">
+                    <ThreePartBitmap profile="fs25_lineSeparatorTopHighlighted" position="0px 0px" size="100% 2dp"/>
+                    <Text profile="ipsSectionHeader" position="20px -10px" size="1200px 32px" text="$l10n_ips_section_paidPurchases" textAlignment="left" textSize="18px"/>
+                    <ThreePartBitmap profile="fs25_lineSeparatorTop" position="0px -52px" size="100% 1dp"/>
+                    <Text profile="invColumnHeaderBtn" position="20px -66px" size="520px 32px" text="$l10n_ips_col_seller"/>
+                    <Text profile="invColumnHeaderBtn" position="550px -66px" size="320px 32px" text="$l10n_ips_col_volume"/>
+                    <Text profile="invColumnHeaderBtn" position="880px -66px" size="360px 32px" text="$l10n_ips_col_amount"/>
+                    <Text profile="invColumnHeaderBtn" position="1250px -66px" size="300px 32px" text="$l10n_ips_col_billing"/>
+                    <ThreePartBitmap profile="fs25_lineSeparatorTop" position="0px -100px" size="100% 1dp"/>
+                </GuiElement>
+                <SmoothList profile="invInvoiceList" id="ipsPurchasesList" position="-63px -484px" size="100% 144px" focusId="ipsPurchasesList" focusChangeTop="ipsMarketList" selectedWithoutFocus="false">
+                    <ListItem profile="invInvoiceListItem">
+                        <ThreePartBitmap profile="invListItemGradient" name="alternating"/>
+                        <Text profile="invRowCellLeft" position="4px 0px" size="520px 32px" name="cellCounterparty"/>
+                        <Text profile="invRowCellRight" position="534px 0px" size="320px 32px" name="cellVolume"/>
+                        <Text profile="invRowCellRight" position="864px 0px" size="360px 32px" name="cellAmount"/>
+                        <Text profile="invRowCellCenter" position="1234px 0px" size="300px 32px" name="cellStatus"/>
+                    </ListItem>
+                </SmoothList>
+            </GuiElement>
+
+            <!-- Seller outputs and offers -->
+            <GuiElement profile="invListContentArea" id="ipsOffersContent" position="0px -112px" visible="false">
+                <GuiElement profile="fs25_statisticsHeaderBox" position="-63px 0px">
+                    <Text profile="invColumnHeaderBtn" position="20px -14px" size="300px 32px" text="$l10n_ips_col_production"/>
+                    <Text profile="invColumnHeaderBtn" position="330px -14px" size="280px 32px" text="$l10n_ips_col_product"/>
+                    <Text profile="invColumnHeaderBtn" position="620px -14px" size="150px 32px" text="$l10n_ips_col_mode"/>
+                    <Text profile="invColumnHeaderBtn" position="780px -14px" size="190px 32px" text="$l10n_ips_col_stock"/>
+                    <Text profile="invColumnHeaderBtn" position="980px -14px" size="140px 32px" text="$l10n_ips_col_pallets"/>
+                    <Text profile="invColumnHeaderBtn" position="1130px -14px" size="260px 32px" name="ipsOffersPriceHeader" text="$l10n_ips_col_price"/>
+                    <Text profile="invColumnHeaderBtn" position="1400px -14px" size="150px 32px" text="$l10n_ips_col_status"/>
+                </GuiElement>
+                <ThreePartBitmap profile="fs25_lineSeparatorTop" position="-63px -48px" size="100% 1dp"/>
+                <SmoothList profile="invInvoiceList" id="ipsOutputsList" position="-63px -50px" size="100% 582px" focusId="ipsOutputsList" focusChangeTop="ipsPrimaryViewPaging" selectedWithoutFocus="false">
+                    <ListItem profile="invInvoiceListItem">
+                        <ThreePartBitmap profile="invListItemGradient" name="alternating"/>
+                        <Text profile="invRowCellDim" position="20px 0px" size="300px 32px" name="cellProduction"/>
+                        <BoxLayout profile="emptyPanel" position="330px 0px" size="280px 32px" flowDirection="horizontal" alignmentX="center" alignmentY="middle" numFlows="1" elementSpacing="4px" autoValidateLayout="true" wrapAround="false">
+                            <Bitmap profile="ftdCellIcon" size="28px 28px" name="cellProductIcon"/>
+                            <Text profile="invRowCellDim" size="0px 32px" textAutoWidth="true" textMaxWidth="248px" name="cellProduct"/>
+                        </BoxLayout>
+                        <Text profile="invRowCellCenter" position="620px 0px" size="150px 32px" name="cellMode"/>
+                        <Text profile="invRowCellRight" position="780px 0px" size="190px 32px" name="cellStock"/>
+                        <Text profile="invRowCellCenter" position="980px 0px" size="140px 32px" name="cellPallets"/>
+                        <Text profile="invRowCellRight" position="1130px 0px" size="260px 32px" name="cellPrice"/>
+                        <Text profile="invRowCellCenter" position="1400px 0px" size="150px 32px" name="cellStatus"/>
+                    </ListItem>
+                </SmoothList>
+                <GuiElement profile="invListContentArea" id="ipsOutputsEmpty" position="0px -50px" visible="false">
+                    <Text profile="invEmptyStateText" position="540px -280px" text="$l10n_ips_error_noOffers"/>
+                </GuiElement>
+            </GuiElement>
+
+            <!-- Seller paid sales awaiting their summary invoice -->
+            <GuiElement profile="invListContentArea" id="ipsBatchesContent" position="0px -112px" visible="false">
+                <GuiElement profile="fs25_statisticsHeaderBox" position="-63px 0px" size="1580px 102px">
+                    <Text profile="ipsSectionHeader" position="20px -10px" size="1220px 32px" text="$l10n_ips_section_paidSalesPendingInvoice" textAlignment="left" textSize="18px"/>
+                    <ThreePartBitmap profile="fs25_lineSeparatorTop" position="0px -52px" size="100% 1dp"/>
+                    <Text profile="invColumnHeaderBtn" position="20px -66px" size="350px 32px" text="$l10n_ips_col_buyer"/>
+                    <Text profile="invColumnHeaderBtn" position="380px -66px" size="390px 32px" text="$l10n_ips_col_product"/>
+                    <Text profile="invColumnHeaderBtn" position="780px -66px" size="220px 32px" text="$l10n_ips_col_volumeSold"/>
+                    <Text profile="invColumnHeaderBtn" position="1010px -66px" size="250px 32px" text="$l10n_ips_col_amountReceived"/>
+                    <Text profile="invColumnHeaderBtn" position="1270px -66px" size="280px 32px" text="$l10n_ips_col_billing"/>
+                    <ThreePartBitmap profile="fs25_lineSeparatorTop" position="0px -100px" size="100% 1dp"/>
+                </GuiElement>
+                <SmoothList profile="invInvoiceList" id="ipsBatchesList" position="-63px -102px" size="100% 530px" focusId="ipsBatchesList" focusChangeTop="ipsPrimaryViewPaging" selectedWithoutFocus="false">
+                    <ListItem profile="invInvoiceListItem">
+                        <ThreePartBitmap profile="invListItemGradient" name="alternating"/>
+                        <Text profile="invRowCellLeft" position="4px 0px" size="350px 32px" name="cellCounterparty"/>
+                        <BoxLayout profile="emptyPanel" position="364px 0px" size="390px 32px" flowDirection="horizontal" alignmentX="center" alignmentY="middle" numFlows="1" elementSpacing="4px" autoValidateLayout="true" wrapAround="false">
+                            <Bitmap profile="ftdCellIcon" size="28px 28px" name="cellProductIcon"/>
+                            <Text profile="invRowCellDim" size="0px 32px" textAutoWidth="true" textMaxWidth="358px" name="cellProduct"/>
+                        </BoxLayout>
+                        <Text profile="invRowCellRight" position="764px 0px" size="220px 32px" name="cellVolume"/>
+                        <Text profile="invRowCellRight" position="994px 0px" size="250px 32px" name="cellAmount"/>
+                        <Text profile="invRowCellCenter" position="1254px 0px" size="280px 32px" name="cellStatus"/>
+                    </ListItem>
+                </SmoothList>
+                <GuiElement profile="invListContentArea" id="ipsBatchesEmpty" position="0px -102px" visible="false">
+                    <Text profile="invEmptyStateText" position="540px -250px" text="$l10n_ips_error_noBatches"/>
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+
+        <ThreePartBitmap profile="invSliderDockedBg" id="ipsSliderBox" visible="false">
+            <ThreePartBitmap profile="invSliderDockedBox">
+                <Slider profile="invSliderDocked" id="ipsSlider" dataElementId="ipsMarketList"/>
+            </ThreePartBitmap>
+        </ThreePartBitmap>
+    </PageControls>
+</InvoicesProductionSalesExtension>

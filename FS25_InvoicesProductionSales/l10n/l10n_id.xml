@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="Penjualan produksi" />
+        <e k="ips_tab_market" v="PASAR" />
+        <e k="ips_tab_offers" v="PENAWARAN SAYA" />
+        <e k="ips_tab_batches" v="PENJUALAN SAYA" />
+        <e k="ips_section_paidPurchases" v="PEMBELIAN LUNAS (BULAN BERJALAN)" />
+        <e k="ips_section_paidSalesPendingInvoice" v="PENJUALAN LUNAS MENUNGGU FAKTUR RINGKASAN (BULAN BERJALAN)" />
+        <e k="ips_col_seller" v="Penjual" />
+        <e k="ips_col_production" v="Produksi" />
+        <e k="ips_col_product" v="Produk" />
+        <e k="ips_col_mode" v="Mode" />
+        <e k="ips_col_stock" v="Stok" />
+        <e k="ips_col_pallets" v="Palet" />
+        <e k="ips_col_price" v="Harga / 1.000 l" />
+        <e k="ips_col_buyer" v="Pembeli" />
+        <e k="ips_col_volume" v="Volume" />
+        <e k="ips_col_amount" v="Jumlah" />
+        <e k="ips_col_volumeSold" v="Volume terjual" />
+        <e k="ips_col_amountReceived" v="Jumlah diterima" />
+        <e k="ips_col_billing" v="Penagihan" />
+        <e k="ips_col_status" v="Status" />
+        <e k="ips_mode_bulk" v="Curah" />
+        <e k="ips_mode_pallets" v="Palet" />
+        <e k="ips_status_active" v="Terbuka" />
+        <e k="ips_status_inactive" v="Ditutup" />
+        <e k="ips_status_paid" v="Dibayar" />
+        <e k="ips_status_pending" v="Tertunda" />
+        <e k="ips_btn_refresh" v="Segarkan" />
+        <e k="ips_btn_buyPallets" v="Beli palet" />
+        <e k="ips_btn_activate" v="Buka penawaran" />
+        <e k="ips_btn_deactivate" v="Tutup penawaran" />
+        <e k="ips_btn_editPrice" v="Ubah harga" />
+        <e k="ips_btn_closeBatch" v="Terbitkan faktur" />
+        <e k="ips_label_pricePer1000L" v="Harga per 1.000 l" />
+        <e k="ips_label_palletQuantity" v="Jumlah palet" />
+        <e k="ips_label_availablePallets" v="Palet penuh tersedia" />
+        <e k="ips_label_taxIncluded" v="Termasuk pajak" />
+        <e k="ips_dialog_price_prompt" v="Masukkan harga termasuk pajak per 1.000 liter" />
+        <e k="ips_dialog_offerQuantity_prompt" v="Masukkan jumlah yang akan ditawarkan dalam liter (maksimum: %s)" />
+        <e k="ips_dialog_pallet_prompt" v="Jumlah palet penuh yang akan dibeli (maksimum %d)" />
+        <e k="ips_confirm_bulk" v="Mulai memuat %s dari produksi %s, dijual oleh %s dengan harga %s per 1.000 l?" />
+        <e k="ips_confirm_pallets" v="Beli %d palet penuh %s dari %s seharga %s?" />
+        <e k="ips_confirm_activate" v="Tawarkan %s dari %s di pasar?" />
+        <e k="ips_confirm_deactivate" v="Tutup penawaran %s dari %s?" />
+        <e k="ips_confirm_closeBatch" v="Terbitkan sekarang faktur ringkasan yang sudah dibayar untuk %s dengan total %s?" />
+        <e k="ips_notice_offerSaved" v="Penawaran produksi telah dibuka." />
+        <e k="ips_notice_priceUpdated" v="Harga jual telah diperbarui." />
+        <e k="ips_notice_offerClosed" v="Penawaran produksi telah ditutup." />
+        <e k="ips_notice_batchClosed" v="Faktur ringkasan lunas telah diterbitkan." />
+        <e k="ips_notice_batchClosedEmpty" v="Tidak ada yang perlu ditagihkan, tidak ada faktur ringkasan yang diterbitkan." />
+        <e k="ips_notice_palletsPurchased" v="Pembelian palet berhasil diselesaikan." />
+        <e k="ips_notice_receiptCreated" v="Faktur lunas %s telah dibuat." />
+        <e k="ips_notice_receiptPaid" v="Faktur lunas %s telah diterima." />
+        <e k="ips_notice_loadingStoppedFunds" v="Pemuatan dihentikan: lahan Anda tidak mampu membayar volume tambahan." />
+        <e k="ips_error_invoiceIncompatible" v="Versi atau API FS25_Invoices tidak didukung. Penjualan produksi dinonaktifkan." />
+        <e k="ips_error_noPermission" v="Hanya pengelola lahan yang dapat melakukan tindakan ini." />
+        <e k="ips_error_noFarm" v="Tidak ada lahan pemain yang valid." />
+        <e k="ips_error_noOffers" v="Tidak ada penawaran penjualan produksi yang tersedia." />
+        <e k="ips_error_noBatches" v="Tidak ada penjualan lunas yang menunggu penagihan." />
+        <e k="ips_error_noStock" v="Keluaran produksi ini kehabisan stok." />
+        <e k="ips_error_noFullPallets" v="Tidak ada palet keluaran penuh yang tersedia." />
+        <e k="ips_error_insufficientFunds" v="Lahan Anda tidak memiliki cukup uang untuk pembelian ini." />
+        <e k="ips_error_offerUnavailable" v="Penawaran produksi ini tidak lagi tersedia." />
+        <e k="ips_error_offerChanged" v="Penawaran telah berubah. Segarkan pasar dan coba lagi." />
+        <e k="ips_error_invalidPrice" v="Harga jual minimal harus 1 per 1.000 liter." />
+        <e k="ips_error_invalidQuantity" v="Jumlah yang ditawarkan harus berupa bilangan bulat antara 1 liter dan stok yang tersedia." />
+        <e k="ips_error_outputMode" v="Keluaran produksi harus menggunakan mode distribusi Simpan." />
+        <e k="ips_error_transactionFailed" v="Pembelian tidak dapat diselesaikan dengan aman." />
+        <e k="ips_error_serverUnavailable" v="Layanan penjualan produksi tidak tersedia di server." />
+        <e k="ips_receipt_noteAutomatic" v="Faktur ini dibuat secara otomatis." />
+    </elements>
+</l10n>

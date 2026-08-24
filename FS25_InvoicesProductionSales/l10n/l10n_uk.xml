@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="Продаж продукції" />
+        <e k="ips_tab_market" v="РИНОК" />
+        <e k="ips_tab_offers" v="МОЇ ПРОПОЗИЦІЇ" />
+        <e k="ips_tab_batches" v="МОЇ ПРОДАЖІ" />
+        <e k="ips_section_paidPurchases" v="ОПЛАЧЕНІ ПОКУПКИ (ПОТОЧНИЙ МІСЯЦЬ)" />
+        <e k="ips_section_paidSalesPendingInvoice" v="ОПЛАЧЕНІ ПРОДАЖІ ОЧІКУЮТЬ ЗВЕДЕНОГО РАХУНКУ (ПОТОЧНИЙ МІСЯЦЬ)" />
+        <e k="ips_col_seller" v="Продавець" />
+        <e k="ips_col_production" v="Виробництво" />
+        <e k="ips_col_product" v="Продукт" />
+        <e k="ips_col_mode" v="Режим" />
+        <e k="ips_col_stock" v="Запас" />
+        <e k="ips_col_pallets" v="Піддони" />
+        <e k="ips_col_price" v="Ціна / 1 000 л" />
+        <e k="ips_col_buyer" v="Покупець" />
+        <e k="ips_col_volume" v="Обсяг" />
+        <e k="ips_col_amount" v="Сума" />
+        <e k="ips_col_volumeSold" v="Проданий обсяг" />
+        <e k="ips_col_amountReceived" v="Отримана сума" />
+        <e k="ips_col_billing" v="Виставлення рахунку" />
+        <e k="ips_col_status" v="Стан" />
+        <e k="ips_mode_bulk" v="Насипом" />
+        <e k="ips_mode_pallets" v="Піддони" />
+        <e k="ips_status_active" v="Відкрита" />
+        <e k="ips_status_inactive" v="Закрита" />
+        <e k="ips_status_paid" v="Оплачено" />
+        <e k="ips_status_pending" v="Очікування" />
+        <e k="ips_btn_refresh" v="Оновити" />
+        <e k="ips_btn_buyPallets" v="Купити піддони" />
+        <e k="ips_btn_activate" v="Відкрити пропозицію" />
+        <e k="ips_btn_deactivate" v="Закрити пропозицію" />
+        <e k="ips_btn_editPrice" v="Змінити ціну" />
+        <e k="ips_btn_closeBatch" v="Виставити рахунок" />
+        <e k="ips_label_pricePer1000L" v="Ціна за 1 000 л" />
+        <e k="ips_label_palletQuantity" v="Кількість піддонів" />
+        <e k="ips_label_availablePallets" v="Доступні повні піддони" />
+        <e k="ips_label_taxIncluded" v="З ПДВ" />
+        <e k="ips_dialog_price_prompt" v="Введіть ціну з ПДВ за 1 000 літрів" />
+        <e k="ips_dialog_offerQuantity_prompt" v="Введіть обсяг для продажу в літрах (максимум: %s)" />
+        <e k="ips_dialog_pallet_prompt" v="Кількість повних піддонів для покупки (максимум %d)" />
+        <e k="ips_confirm_bulk" v="Почати завантаження %s із виробництва %s, продавець %s, за ціною %s за 1 000 л?" />
+        <e k="ips_confirm_pallets" v="Купити %d повних піддонів із %s у %s за %s?" />
+        <e k="ips_confirm_activate" v="Виставити %s із %s на ринок?" />
+        <e k="ips_confirm_deactivate" v="Закрити пропозицію %s із %s?" />
+        <e k="ips_confirm_closeBatch" v="Виставити зараз уже оплачений зведений рахунок для %s на суму %s?" />
+        <e k="ips_notice_offerSaved" v="Пропозицію продукції відкрито." />
+        <e k="ips_notice_priceUpdated" v="Ціну продажу оновлено." />
+        <e k="ips_notice_offerClosed" v="Пропозицію продукції закрито." />
+        <e k="ips_notice_batchClosed" v="Оплачений зведений рахунок виставлено." />
+        <e k="ips_notice_batchClosedEmpty" v="Виставляти рахунок не було за що, зведений рахунок не виставлено." />
+        <e k="ips_notice_palletsPurchased" v="Покупку піддонів успішно завершено." />
+        <e k="ips_notice_receiptCreated" v="Створено оплачений рахунок %s." />
+        <e k="ips_notice_receiptPaid" v="Отримано оплачений рахунок %s." />
+        <e k="ips_notice_loadingStoppedFunds" v="Завантаження зупинено: ферма не може оплатити додатковий обсяг." />
+        <e k="ips_error_invoiceIncompatible" v="Непідтримувана версія або API FS25_Invoices. Продаж продукції вимкнено." />
+        <e k="ips_error_noPermission" v="Цю дію може виконати лише керівник ферми." />
+        <e k="ips_error_noFarm" v="Немає доступної дійсної ферми гравця." />
+        <e k="ips_error_noOffers" v="Немає доступних пропозицій продажу продукції." />
+        <e k="ips_error_noBatches" v="Немає оплачених продажів, що очікують виставлення рахунку." />
+        <e k="ips_error_noStock" v="Цей вихід виробництва закінчився." />
+        <e k="ips_error_noFullPallets" v="Немає доступних повних вихідних піддонів." />
+        <e k="ips_error_insufficientFunds" v="Ферма не має достатньо грошей для цієї покупки." />
+        <e k="ips_error_offerUnavailable" v="Ця пропозиція продукції більше недоступна." />
+        <e k="ips_error_offerChanged" v="Пропозиція змінилася. Оновіть ринок і спробуйте ще раз." />
+        <e k="ips_error_invalidPrice" v="Ціна продажу має бути не меншою за 1 на 1 000 літрів." />
+        <e k="ips_error_invalidQuantity" v="Обсяг для продажу має бути цілим числом від 1 літра до доступного запасу." />
+        <e k="ips_error_outputMode" v="Для виходу виробництва слід вибрати режим розподілу Зберігати." />
+        <e k="ips_error_transactionFailed" v="Не вдалося безпечно завершити покупку." />
+        <e k="ips_error_serverUnavailable" v="Служба продажу продукції недоступна на сервері." />
+        <e k="ips_receipt_noteAutomatic" v="Цей рахунок створено автоматично." />
+    </elements>
+</l10n>
