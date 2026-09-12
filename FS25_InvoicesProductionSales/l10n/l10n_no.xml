@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="Produksjonssalg" />
+        <e k="ips_tab_market" v="MARKED" />
+        <e k="ips_tab_offers" v="MINE TILBUD" />
+        <e k="ips_tab_batches" v="MINE SALG" />
+        <e k="ips_section_paidPurchases" v="BETALTE KJØP (GJELDENDE MÅNED)" />
+        <e k="ips_section_paidSalesPendingInvoice" v="BETALTE SALG SOM VENTER PÅ SAMLEFAKTURA (GJELDENDE MÅNED)" />
+        <e k="ips_col_seller" v="Selger" />
+        <e k="ips_col_production" v="Produksjon" />
+        <e k="ips_col_product" v="Produkt" />
+        <e k="ips_col_mode" v="Modus" />
+        <e k="ips_col_stock" v="Lager" />
+        <e k="ips_col_pallets" v="Paller" />
+        <e k="ips_col_price" v="Pris / 1 000 l" />
+        <e k="ips_col_buyer" v="Kjøper" />
+        <e k="ips_col_volume" v="Volum" />
+        <e k="ips_col_amount" v="Beløp" />
+        <e k="ips_col_volumeSold" v="Solgt volum" />
+        <e k="ips_col_amountReceived" v="Mottatt beløp" />
+        <e k="ips_col_billing" v="Fakturering" />
+        <e k="ips_col_status" v="Status" />
+        <e k="ips_mode_bulk" v="Bulk" />
+        <e k="ips_mode_pallets" v="Paller" />
+        <e k="ips_status_active" v="Åpent" />
+        <e k="ips_status_inactive" v="Lukket" />
+        <e k="ips_status_paid" v="Betalt" />
+        <e k="ips_status_pending" v="Venter" />
+        <e k="ips_btn_refresh" v="Oppdater" />
+        <e k="ips_btn_buyPallets" v="Kjøp paller" />
+        <e k="ips_btn_activate" v="Åpne tilbud" />
+        <e k="ips_btn_deactivate" v="Lukk tilbud" />
+        <e k="ips_btn_editPrice" v="Endre pris" />
+        <e k="ips_btn_closeBatch" v="Utsted faktura" />
+        <e k="ips_label_pricePer1000L" v="Pris per 1 000 l" />
+        <e k="ips_label_palletQuantity" v="Antall paller" />
+        <e k="ips_label_availablePallets" v="Tilgjengelige fulle paller" />
+        <e k="ips_label_taxIncluded" v="Inkl. mva." />
+        <e k="ips_dialog_price_prompt" v="Angi en pris inkl. mva. per 1 000 liter" />
+        <e k="ips_dialog_offerQuantity_prompt" v="Angi mengden som skal legges ut, i liter (maksimum: %s)" />
+        <e k="ips_dialog_pallet_prompt" v="Antall fulle paller som skal kjøpes (maksimalt %d)" />
+        <e k="ips_confirm_bulk" v="Starte lasting av %s fra produksjonen %s, solgt av %s til %s per 1 000 l?" />
+        <e k="ips_confirm_pallets" v="Kjøpe %d fulle paller med %s fra %s for %s?" />
+        <e k="ips_confirm_activate" v="Publisere %s fra %s på markedet?" />
+        <e k="ips_confirm_deactivate" v="Lukke tilbudet på %s fra %s?" />
+        <e k="ips_confirm_closeBatch" v="Utstede den allerede betalte samlefakturaen for %s på totalt %s nå?" />
+        <e k="ips_notice_offerSaved" v="Produksjonstilbudet er åpnet." />
+        <e k="ips_notice_priceUpdated" v="Salgsprisen er oppdatert." />
+        <e k="ips_notice_offerClosed" v="Produksjonstilbudet er lukket." />
+        <e k="ips_notice_batchClosed" v="Den betalte samlefakturaen er utstedt." />
+        <e k="ips_notice_batchClosedEmpty" v="Det var ingenting å fakturere, og ingen samlefaktura ble utstedt." />
+        <e k="ips_notice_palletsPurchased" v="Pallekjøpet ble fullført." />
+        <e k="ips_notice_receiptCreated" v="Den betalte fakturaen %s er opprettet." />
+        <e k="ips_notice_receiptPaid" v="Den betalte fakturaen %s er mottatt." />
+        <e k="ips_notice_loadingStoppedFunds" v="Lasting stoppet: gården din har ikke råd til mer volum." />
+        <e k="ips_error_invoiceIncompatible" v="Ustøttet FS25_Invoices-versjon eller API. Produksjonssalg er deaktivert." />
+        <e k="ips_error_noPermission" v="Bare en gårdsleder kan utføre denne handlingen." />
+        <e k="ips_error_noFarm" v="Ingen gyldig spillergård er tilgjengelig." />
+        <e k="ips_error_noOffers" v="Ingen tilbud for produksjonssalg er tilgjengelige." />
+        <e k="ips_error_noBatches" v="Ingen betalte salg venter på fakturering." />
+        <e k="ips_error_noStock" v="Dette produksjonsproduktet er utsolgt." />
+        <e k="ips_error_noFullPallets" v="Ingen fulle utgangspaller er tilgjengelige." />
+        <e k="ips_error_insufficientFunds" v="Gården din har ikke nok penger til dette kjøpet." />
+        <e k="ips_error_offerUnavailable" v="Dette produksjonstilbudet er ikke lenger tilgjengelig." />
+        <e k="ips_error_offerChanged" v="Tilbudet er endret. Oppdater markedet og prøv igjen." />
+        <e k="ips_error_invalidPrice" v="Salgsprisen må være minst 1 per 1 000 liter." />
+        <e k="ips_error_invalidQuantity" v="Mengden som legges ut, må være et helt antall liter mellom 1 og tilgjengelig lager." />
+        <e k="ips_error_outputMode" v="Produksjonsutgangen må bruke distribusjonsmodusen Lagre." />
+        <e k="ips_error_transactionFailed" v="Kjøpet kunne ikke fullføres på en sikker måte." />
+        <e k="ips_error_serverUnavailable" v="Tjenesten for produksjonssalg er ikke tilgjengelig på serveren." />
+        <e k="ips_receipt_noteAutomatic" v="Denne fakturaen ble opprettet automatisk." />
+    </elements>
+</l10n>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="Production Sales" />
+        <e k="ips_tab_market" v="MARKET" />
+        <e k="ips_tab_offers" v="MY OFFERS" />
+        <e k="ips_tab_batches" v="MY SALES" />
+        <e k="ips_section_paidPurchases" v="PAID PURCHASES (CURRENT MONTH)" />
+        <e k="ips_section_paidSalesPendingInvoice" v="PAID SALES AWAITING SUMMARY INVOICE (CURRENT MONTH)" />
+        <e k="ips_col_seller" v="Seller" />
+        <e k="ips_col_production" v="Production" />
+        <e k="ips_col_product" v="Product" />
+        <e k="ips_col_mode" v="Mode" />
+        <e k="ips_col_stock" v="Stock" />
+        <e k="ips_col_pallets" v="Pallets" />
+        <e k="ips_col_price" v="Price / 1,000 l" />
+        <e k="ips_col_buyer" v="Buyer" />
+        <e k="ips_col_volume" v="Volume" />
+        <e k="ips_col_amount" v="Amount" />
+        <e k="ips_col_volumeSold" v="Volume sold" />
+        <e k="ips_col_amountReceived" v="Amount received" />
+        <e k="ips_col_billing" v="Invoicing" />
+        <e k="ips_col_status" v="Status" />
+        <e k="ips_mode_bulk" v="Bulk" />
+        <e k="ips_mode_pallets" v="Pallets" />
+        <e k="ips_status_active" v="Open" />
+        <e k="ips_status_inactive" v="Closed" />
+        <e k="ips_status_paid" v="Paid" />
+        <e k="ips_status_pending" v="Pending" />
+        <e k="ips_btn_refresh" v="Refresh" />
+        <e k="ips_btn_buyPallets" v="Buy pallets" />
+        <e k="ips_btn_activate" v="Open offer" />
+        <e k="ips_btn_deactivate" v="Close offer" />
+        <e k="ips_btn_editPrice" v="Change price" />
+        <e k="ips_btn_closeBatch" v="Issue invoice" />
+        <e k="ips_label_pricePer1000L" v="Price per 1,000 l" />
+        <e k="ips_label_palletQuantity" v="Pallet quantity" />
+        <e k="ips_label_availablePallets" v="Full pallets available" />
+        <e k="ips_label_taxIncluded" v="VAT included" />
+        <e k="ips_dialog_price_prompt" v="Enter a tax-inclusive price per 1,000 liters" />
+        <e k="ips_dialog_offerQuantity_prompt" v="Enter the quantity to list in liters (maximum: %s)" />
+        <e k="ips_dialog_pallet_prompt" v="Number of full pallets to buy (maximum %d)" />
+        <e k="ips_confirm_bulk" v="Start loading %s from production %s, sold by %s at %s per 1,000 l?" />
+        <e k="ips_confirm_pallets" v="Buy %d full pallet(s) of %s from %s for %s?" />
+        <e k="ips_confirm_activate" v="Publish %s from %s on the market?" />
+        <e k="ips_confirm_deactivate" v="Close the offer for %s from %s?" />
+        <e k="ips_confirm_closeBatch" v="Issue the already-paid summary invoice for %s totaling %s now?" />
+        <e k="ips_notice_offerSaved" v="The production offer has been opened." />
+        <e k="ips_notice_priceUpdated" v="The sale price has been updated." />
+        <e k="ips_notice_offerClosed" v="The production offer has been closed." />
+        <e k="ips_notice_batchClosed" v="The paid summary invoice has been issued." />
+        <e k="ips_notice_batchClosedEmpty" v="There was nothing to invoice, no summary invoice was issued." />
+        <e k="ips_notice_palletsPurchased" v="The pallet purchase was completed successfully." />
+        <e k="ips_notice_receiptCreated" v="Paid invoice %s has been created." />
+        <e k="ips_notice_receiptPaid" v="Paid invoice %s has been received." />
+        <e k="ips_notice_loadingStoppedFunds" v="Loading stopped: your farm cannot afford any additional volume." />
+        <e k="ips_error_invoiceIncompatible" v="Unsupported FS25_Invoices version or API. Production sales are disabled." />
+        <e k="ips_error_noPermission" v="Only a farm manager can perform this action." />
+        <e k="ips_error_noFarm" v="No valid player farm is available." />
+        <e k="ips_error_noOffers" v="No production sale offers are available." />
+        <e k="ips_error_noBatches" v="No paid sales are awaiting invoicing." />
+        <e k="ips_error_noStock" v="This production output is out of stock." />
+        <e k="ips_error_noFullPallets" v="No full output pallets are available." />
+        <e k="ips_error_insufficientFunds" v="Your farm does not have enough money for this purchase." />
+        <e k="ips_error_offerUnavailable" v="This production offer is no longer available." />
+        <e k="ips_error_offerChanged" v="The offer changed. Refresh the market and try again." />
+        <e k="ips_error_invalidPrice" v="The sale price must be at least 1 per 1,000 liters." />
+        <e k="ips_error_invalidQuantity" v="The listed quantity must be a whole number between 1 liter and the available stock." />
+        <e k="ips_error_outputMode" v="The production output must use the Store distribution mode." />
+        <e k="ips_error_transactionFailed" v="The purchase could not be completed safely." />
+        <e k="ips_error_serverUnavailable" v="The production sales service is not available on the server." />
+        <e k="ips_receipt_noteAutomatic" v="This invoice was generated automatically." />
+    </elements>
+</l10n>

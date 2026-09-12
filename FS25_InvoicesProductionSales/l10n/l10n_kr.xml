@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="생산품 판매" />
+        <e k="ips_tab_market" v="시장" />
+        <e k="ips_tab_offers" v="내 판매 제안" />
+        <e k="ips_tab_batches" v="내 판매" />
+        <e k="ips_section_paidPurchases" v="결제 완료 구매 (이번 달)" />
+        <e k="ips_section_paidSalesPendingInvoice" v="요약 청구서 발행 대기 중인 결제 완료 판매 (이번 달)" />
+        <e k="ips_col_seller" v="판매자" />
+        <e k="ips_col_production" v="생산 시설" />
+        <e k="ips_col_product" v="제품" />
+        <e k="ips_col_mode" v="형태" />
+        <e k="ips_col_stock" v="재고" />
+        <e k="ips_col_pallets" v="팔레트" />
+        <e k="ips_col_price" v="가격 / 1,000 l" />
+        <e k="ips_col_buyer" v="구매자" />
+        <e k="ips_col_volume" v="수량" />
+        <e k="ips_col_amount" v="금액" />
+        <e k="ips_col_volumeSold" v="판매량" />
+        <e k="ips_col_amountReceived" v="수령 금액" />
+        <e k="ips_col_billing" v="청구" />
+        <e k="ips_col_status" v="상태" />
+        <e k="ips_mode_bulk" v="벌크" />
+        <e k="ips_mode_pallets" v="팔레트" />
+        <e k="ips_status_active" v="판매 중" />
+        <e k="ips_status_inactive" v="판매 종료" />
+        <e k="ips_status_paid" v="지불됨" />
+        <e k="ips_status_pending" v="대기 중" />
+        <e k="ips_btn_refresh" v="새로고침" />
+        <e k="ips_btn_buyPallets" v="팔레트 구매" />
+        <e k="ips_btn_activate" v="판매 열기" />
+        <e k="ips_btn_deactivate" v="판매 닫기" />
+        <e k="ips_btn_editPrice" v="가격 변경" />
+        <e k="ips_btn_closeBatch" v="청구서 발행" />
+        <e k="ips_label_pricePer1000L" v="1,000 l당 가격" />
+        <e k="ips_label_palletQuantity" v="팔레트 수" />
+        <e k="ips_label_availablePallets" v="구매 가능한 가득 찬 팔레트" />
+        <e k="ips_label_taxIncluded" v="세금 포함" />
+        <e k="ips_dialog_price_prompt" v="1,000리터당 세금 포함 가격 입력" />
+        <e k="ips_dialog_offerQuantity_prompt" v="판매할 수량을 리터 단위로 입력(최대: %s)" />
+        <e k="ips_dialog_pallet_prompt" v="구매할 가득 찬 팔레트 수(최대 %d)" />
+        <e k="ips_confirm_bulk" v="%s을(를) 생산 시설 %s에서 판매자 %s에게 1,000 l당 %s에 적재하시겠습니까?" />
+        <e k="ips_confirm_pallets" v="%d개의 가득 찬 %s 팔레트를 %s에게서 %s에 구매하시겠습니까?" />
+        <e k="ips_confirm_activate" v="%s(%s)을(를) 시장에 판매하시겠습니까?" />
+        <e k="ips_confirm_deactivate" v="%s(%s)의 판매를 닫으시겠습니까?" />
+        <e k="ips_confirm_closeBatch" v="%s의 총 %s 결제 완료 요약 청구서를 지금 발행하시겠습니까?" />
+        <e k="ips_notice_offerSaved" v="생산품 판매를 열었습니다." />
+        <e k="ips_notice_priceUpdated" v="판매 가격을 업데이트했습니다." />
+        <e k="ips_notice_offerClosed" v="생산품 판매를 닫았습니다." />
+        <e k="ips_notice_batchClosed" v="결제 완료 요약 청구서가 발행되었습니다." />
+        <e k="ips_notice_batchClosedEmpty" v="청구할 내역이 없어 요약 청구서가 발행되지 않았습니다." />
+        <e k="ips_notice_palletsPurchased" v="팔레트 구매를 완료했습니다." />
+        <e k="ips_notice_receiptCreated" v="결제 완료 청구서 %s을(를) 생성했습니다." />
+        <e k="ips_notice_receiptPaid" v="결제 완료 청구서 %s을(를) 받았습니다." />
+        <e k="ips_notice_loadingStoppedFunds" v="적재 중지: 농장에서 추가 수량을 지불할 수 없습니다." />
+        <e k="ips_error_invoiceIncompatible" v="지원되지 않는 FS25_Invoices 버전 또는 API입니다. 생산품 판매가 비활성화되었습니다." />
+        <e k="ips_error_noPermission" v="농장 관리자만 이 작업을 수행할 수 있습니다." />
+        <e k="ips_error_noFarm" v="사용 가능한 올바른 플레이어 농장이 없습니다." />
+        <e k="ips_error_noOffers" v="구매 가능한 생산품이 없습니다." />
+        <e k="ips_error_noBatches" v="청구서 발행 대기 중인 결제 완료 판매가 없습니다." />
+        <e k="ips_error_noStock" v="이 생산 출력의 재고가 없습니다." />
+        <e k="ips_error_noFullPallets" v="구매 가능한 가득 찬 생산 팔레트가 없습니다." />
+        <e k="ips_error_insufficientFunds" v="농장에 이 구매를 위한 자금이 부족합니다." />
+        <e k="ips_error_offerUnavailable" v="이 생산품은 더 이상 구매할 수 없습니다." />
+        <e k="ips_error_offerChanged" v="판매 제안이 변경되었습니다. 시장을 새로고침하고 다시 시도하세요." />
+        <e k="ips_error_invalidPrice" v="판매 가격은 1,000리터당 1 이상이어야 합니다." />
+        <e k="ips_error_invalidQuantity" v="판매 수량은 1리터부터 사용 가능한 재고까지의 정수여야 합니다." />
+        <e k="ips_error_outputMode" v="생산 출력은 보관 분배 모드를 사용해야 합니다." />
+        <e k="ips_error_transactionFailed" v="구매를 안전하게 완료할 수 없습니다." />
+        <e k="ips_error_serverUnavailable" v="서버에서 생산품 판매 서비스를 사용할 수 없습니다." />
+        <e k="ips_receipt_noteAutomatic" v="이 청구서는 자동으로 생성되었습니다." />
+    </elements>
+</l10n>

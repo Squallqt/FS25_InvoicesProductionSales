@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="Produktionsförsäljning" />
+        <e k="ips_tab_market" v="MARKNAD" />
+        <e k="ips_tab_offers" v="MINA ERBJUDANDEN" />
+        <e k="ips_tab_batches" v="MIN FÖRSÄLJNING" />
+        <e k="ips_section_paidPurchases" v="BETALDA KÖP (AKTUELL MÅNAD)" />
+        <e k="ips_section_paidSalesPendingInvoice" v="BETALDA FÖRSÄLJNINGAR VÄNTAR PÅ SAMLINGSFAKTURA (AKTUELL MÅNAD)" />
+        <e k="ips_col_seller" v="Säljare" />
+        <e k="ips_col_production" v="Produktion" />
+        <e k="ips_col_product" v="Produkt" />
+        <e k="ips_col_mode" v="Läge" />
+        <e k="ips_col_stock" v="Lager" />
+        <e k="ips_col_pallets" v="Pallar" />
+        <e k="ips_col_price" v="Pris / 1 000 l" />
+        <e k="ips_col_buyer" v="Köpare" />
+        <e k="ips_col_volume" v="Volym" />
+        <e k="ips_col_amount" v="Belopp" />
+        <e k="ips_col_volumeSold" v="Såld volym" />
+        <e k="ips_col_amountReceived" v="Mottaget belopp" />
+        <e k="ips_col_billing" v="Fakturering" />
+        <e k="ips_col_status" v="Status" />
+        <e k="ips_mode_bulk" v="Lösgods" />
+        <e k="ips_mode_pallets" v="Pallar" />
+        <e k="ips_status_active" v="Öppet" />
+        <e k="ips_status_inactive" v="Stängt" />
+        <e k="ips_status_paid" v="Betald" />
+        <e k="ips_status_pending" v="Väntande" />
+        <e k="ips_btn_refresh" v="Uppdatera" />
+        <e k="ips_btn_buyPallets" v="Köp pallar" />
+        <e k="ips_btn_activate" v="Öppna erbjudande" />
+        <e k="ips_btn_deactivate" v="Stäng erbjudande" />
+        <e k="ips_btn_editPrice" v="Ändra pris" />
+        <e k="ips_btn_closeBatch" v="Utfärda faktura" />
+        <e k="ips_label_pricePer1000L" v="Pris per 1 000 l" />
+        <e k="ips_label_palletQuantity" v="Antal pallar" />
+        <e k="ips_label_availablePallets" v="Tillgängliga fulla pallar" />
+        <e k="ips_label_taxIncluded" v="Inkl. moms" />
+        <e k="ips_dialog_price_prompt" v="Ange ett pris inklusive moms per 1 000 liter" />
+        <e k="ips_dialog_offerQuantity_prompt" v="Ange mängden som ska säljas i liter (högst: %s)" />
+        <e k="ips_dialog_pallet_prompt" v="Antal fulla pallar att köpa (högst %d)" />
+        <e k="ips_confirm_bulk" v="Starta lastning av %s från produktionen %s, såld av %s för %s per 1 000 l?" />
+        <e k="ips_confirm_pallets" v="Köpa %d fulla pallar med %s från %s för %s?" />
+        <e k="ips_confirm_activate" v="Publicera %s från %s på marknaden?" />
+        <e k="ips_confirm_deactivate" v="Stäng erbjudandet för %s från %s?" />
+        <e k="ips_confirm_closeBatch" v="Utfärda den redan betalda samlingsfakturan för %s på totalt %s nu?" />
+        <e k="ips_notice_offerSaved" v="Produktionserbjudandet har öppnats." />
+        <e k="ips_notice_priceUpdated" v="Försäljningspriset har uppdaterats." />
+        <e k="ips_notice_offerClosed" v="Produktionserbjudandet har stängts." />
+        <e k="ips_notice_batchClosed" v="Den betalda samlingsfakturan har utfärdats." />
+        <e k="ips_notice_batchClosedEmpty" v="Det fanns inget att fakturera, ingen samlingsfaktura utfärdades." />
+        <e k="ips_notice_palletsPurchased" v="Pallköpet slutfördes." />
+        <e k="ips_notice_receiptCreated" v="Den betalda fakturan %s har skapats." />
+        <e k="ips_notice_receiptPaid" v="Den betalda fakturan %s har mottagits." />
+        <e k="ips_notice_loadingStoppedFunds" v="Lastningen stoppades: din gård har inte råd med mer volym." />
+        <e k="ips_error_invoiceIncompatible" v="FS25_Invoices-versionen eller API:t stöds inte. Produktionsförsäljning är inaktiverad." />
+        <e k="ips_error_noPermission" v="Endast en gårdsansvarig kan utföra den här åtgärden." />
+        <e k="ips_error_noFarm" v="Ingen giltig spelargård är tillgänglig." />
+        <e k="ips_error_noOffers" v="Inga erbjudanden för produktionsförsäljning finns." />
+        <e k="ips_error_noBatches" v="Inga betalda försäljningar väntar på fakturering." />
+        <e k="ips_error_noStock" v="Den här produktionsutgången är slut i lager." />
+        <e k="ips_error_noFullPallets" v="Inga fulla utmatningspallar finns tillgängliga." />
+        <e k="ips_error_insufficientFunds" v="Din gård har inte tillräckligt med pengar för köpet." />
+        <e k="ips_error_offerUnavailable" v="Det här produktionserbjudandet är inte längre tillgängligt." />
+        <e k="ips_error_offerChanged" v="Erbjudandet har ändrats. Uppdatera marknaden och försök igen." />
+        <e k="ips_error_invalidPrice" v="Försäljningspriset måste vara minst 1 per 1 000 liter." />
+        <e k="ips_error_invalidQuantity" v="Mängden som säljs måste vara ett helt antal liter mellan 1 och det tillgängliga lagret." />
+        <e k="ips_error_outputMode" v="Produktionsutgången måste använda distributionsläget Lagra." />
+        <e k="ips_error_transactionFailed" v="Köpet kunde inte slutföras på ett säkert sätt." />
+        <e k="ips_error_serverUnavailable" v="Tjänsten för produktionsförsäljning är inte tillgänglig på servern." />
+        <e k="ips_receipt_noteAutomatic" v="Den här fakturan skapades automatiskt." />
+    </elements>
+</l10n>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="Ventes de production" />
+        <e k="ips_tab_market" v="MARCHÉ" />
+        <e k="ips_tab_offers" v="MES OFFRES" />
+        <e k="ips_tab_batches" v="MES VENTES" />
+        <e k="ips_section_paidPurchases" v="ACHATS PAYÉS (MOIS EN COURS)" />
+        <e k="ips_section_paidSalesPendingInvoice" v="VENTES PAYÉES EN ATTENTE DE FACTURE RÉCAPITULATIVE (MOIS EN COURS)" />
+        <e k="ips_col_seller" v="Vendeur" />
+        <e k="ips_col_production" v="Production" />
+        <e k="ips_col_product" v="Produit" />
+        <e k="ips_col_mode" v="Mode" />
+        <e k="ips_col_stock" v="Stock" />
+        <e k="ips_col_pallets" v="Palettes" />
+        <e k="ips_col_price" v="Prix / 1 000 l" />
+        <e k="ips_col_buyer" v="Acheteur" />
+        <e k="ips_col_volume" v="Volume" />
+        <e k="ips_col_amount" v="Montant" />
+        <e k="ips_col_volumeSold" v="Volume vendu" />
+        <e k="ips_col_amountReceived" v="Montant reçu" />
+        <e k="ips_col_billing" v="Facturation" />
+        <e k="ips_col_status" v="État" />
+        <e k="ips_mode_bulk" v="Vrac" />
+        <e k="ips_mode_pallets" v="Palettes" />
+        <e k="ips_status_active" v="Ouverte" />
+        <e k="ips_status_inactive" v="Fermée" />
+        <e k="ips_status_paid" v="Réglée" />
+        <e k="ips_status_pending" v="En attente" />
+        <e k="ips_btn_refresh" v="Actualiser" />
+        <e k="ips_btn_buyPallets" v="Acheter les palettes" />
+        <e k="ips_btn_activate" v="Ouvrir l'offre" />
+        <e k="ips_btn_deactivate" v="Fermer l'offre" />
+        <e k="ips_btn_editPrice" v="Changer le prix" />
+        <e k="ips_btn_closeBatch" v="Émettre la facture" />
+        <e k="ips_label_pricePer1000L" v="Prix par 1 000 l" />
+        <e k="ips_label_palletQuantity" v="Nombre de palettes" />
+        <e k="ips_label_availablePallets" v="Palettes pleines disponibles" />
+        <e k="ips_label_taxIncluded" v="Taxes incluses" />
+        <e k="ips_dialog_price_prompt" v="Entrez un prix taxes incluses par 1 000 litres" />
+        <e k="ips_dialog_offerQuantity_prompt" v="Entrez la quantité à mettre en vente en litres (maximum : %s)" />
+        <e k="ips_dialog_pallet_prompt" v="Nombre de palettes pleines à acheter (maximum %d)" />
+        <e k="ips_confirm_bulk" v="Commencer à charger %s depuis la production %s, vendu par %s à %s par 1 000 l ?" />
+        <e k="ips_confirm_pallets" v="Acheter %d palette(s) pleine(s) de %s auprès de %s pour %s ?" />
+        <e k="ips_confirm_activate" v="Publier %s de %s sur le marché ?" />
+        <e k="ips_confirm_deactivate" v="Fermer l'offre de %s de %s ?" />
+        <e k="ips_confirm_closeBatch" v="Émettre maintenant la facture récapitulative déjà payée pour %s, d'un montant de %s ?" />
+        <e k="ips_notice_offerSaved" v="L'offre de production a été ouverte." />
+        <e k="ips_notice_priceUpdated" v="Le prix de vente a été mis à jour." />
+        <e k="ips_notice_offerClosed" v="L'offre de production a été fermée." />
+        <e k="ips_notice_batchClosed" v="La facture récapitulative payée a été émise." />
+        <e k="ips_notice_batchClosedEmpty" v="Il n'y avait rien à facturer, aucune facture récapitulative n'a été émise." />
+        <e k="ips_notice_palletsPurchased" v="L'achat des palettes a été effectué avec succès." />
+        <e k="ips_notice_receiptCreated" v="La facture payée %s a été créée." />
+        <e k="ips_notice_receiptPaid" v="La facture payée %s a été reçue." />
+        <e k="ips_notice_loadingStoppedFunds" v="Chargement arrêté : votre ferme ne peut pas payer un volume supplémentaire." />
+        <e k="ips_error_invoiceIncompatible" v="Version ou API de FS25_Invoices non prise en charge. Les ventes de production sont désactivées." />
+        <e k="ips_error_noPermission" v="Seul un gestionnaire de ferme peut effectuer cette action." />
+        <e k="ips_error_noFarm" v="Aucune ferme de joueur valide n'est disponible." />
+        <e k="ips_error_noOffers" v="Aucune offre de vente de production n'est disponible." />
+        <e k="ips_error_noBatches" v="Aucune vente payée n'est en attente de facturation." />
+        <e k="ips_error_noStock" v="Cette sortie de production est en rupture de stock." />
+        <e k="ips_error_noFullPallets" v="Aucune palette de sortie pleine n'est disponible." />
+        <e k="ips_error_insufficientFunds" v="Votre ferme n'a pas assez d'argent pour cet achat." />
+        <e k="ips_error_offerUnavailable" v="Cette offre de production n'est plus disponible." />
+        <e k="ips_error_offerChanged" v="L'offre a changé. Actualisez le marché et réessayez." />
+        <e k="ips_error_invalidPrice" v="Le prix de vente doit être d'au moins 1 par 1 000 litres." />
+        <e k="ips_error_invalidQuantity" v="La quantité mise en vente doit être un nombre entier compris entre 1 litre et le stock disponible." />
+        <e k="ips_error_outputMode" v="La sortie de production doit utiliser le mode de distribution Stocker." />
+        <e k="ips_error_transactionFailed" v="L'achat n'a pas pu être effectué de façon sécuritaire." />
+        <e k="ips_error_serverUnavailable" v="Le service de vente de production n'est pas disponible sur le serveur." />
+        <e k="ips_receipt_noteAutomatic" v="Cette facture a été générée automatiquement." />
+    </elements>
+</l10n>

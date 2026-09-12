@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="Bán sản phẩm sản xuất" />
+        <e k="ips_tab_market" v="THỊ TRƯỜNG" />
+        <e k="ips_tab_offers" v="CHÀO BÁN CỦA TÔI" />
+        <e k="ips_tab_batches" v="GIAO DỊCH BÁN" />
+        <e k="ips_section_paidPurchases" v="GIAO DỊCH MUA ĐÃ THANH TOÁN (THÁNG HIỆN TẠI)" />
+        <e k="ips_section_paidSalesPendingInvoice" v="GIAO DỊCH BÁN ĐÃ THANH TOÁN ĐANG CHỜ HÓA ĐƠN TỔNG HỢP (THÁNG HIỆN TẠI)" />
+        <e k="ips_col_seller" v="Người bán" />
+        <e k="ips_col_production" v="Cơ sở sản xuất" />
+        <e k="ips_col_product" v="Sản phẩm" />
+        <e k="ips_col_mode" v="Chế độ" />
+        <e k="ips_col_stock" v="Tồn kho" />
+        <e k="ips_col_pallets" v="Pallet" />
+        <e k="ips_col_price" v="Giá / 1.000 l" />
+        <e k="ips_col_buyer" v="Người mua" />
+        <e k="ips_col_volume" v="Thể tích" />
+        <e k="ips_col_amount" v="Số tiền" />
+        <e k="ips_col_volumeSold" v="Khối lượng đã bán" />
+        <e k="ips_col_amountReceived" v="Số tiền đã nhận" />
+        <e k="ips_col_billing" v="Lập hóa đơn" />
+        <e k="ips_col_status" v="Trạng thái" />
+        <e k="ips_mode_bulk" v="Hàng rời" />
+        <e k="ips_mode_pallets" v="Pallet" />
+        <e k="ips_status_active" v="Đang mở" />
+        <e k="ips_status_inactive" v="Đã đóng" />
+        <e k="ips_status_paid" v="Đã thanh toán" />
+        <e k="ips_status_pending" v="Đang chờ" />
+        <e k="ips_btn_refresh" v="Làm mới" />
+        <e k="ips_btn_buyPallets" v="Mua pallet" />
+        <e k="ips_btn_activate" v="Mở chào bán" />
+        <e k="ips_btn_deactivate" v="Đóng chào bán" />
+        <e k="ips_btn_editPrice" v="Đổi giá" />
+        <e k="ips_btn_closeBatch" v="Phát hành hóa đơn" />
+        <e k="ips_label_pricePer1000L" v="Giá mỗi 1.000 l" />
+        <e k="ips_label_palletQuantity" v="Số pallet" />
+        <e k="ips_label_availablePallets" v="Pallet đầy hiện có" />
+        <e k="ips_label_taxIncluded" v="Đã gồm thuế" />
+        <e k="ips_dialog_price_prompt" v="Nhập giá đã gồm thuế cho mỗi 1.000 lít" />
+        <e k="ips_dialog_offerQuantity_prompt" v="Nhập số lượng đăng bán theo lít (tối đa: %s)" />
+        <e k="ips_dialog_pallet_prompt" v="Số pallet đầy cần mua (tối đa %d)" />
+        <e k="ips_confirm_bulk" v="Bắt đầu nạp %s từ cơ sở sản xuất %s, do %s bán với giá %s mỗi 1.000 l?" />
+        <e k="ips_confirm_pallets" v="Mua %d pallet đầy chứa %s từ %s với giá %s?" />
+        <e k="ips_confirm_activate" v="Đăng bán %s từ %s trên thị trường?" />
+        <e k="ips_confirm_deactivate" v="Đóng chào bán %s từ %s?" />
+        <e k="ips_confirm_closeBatch" v="Phát hành ngay hóa đơn tổng hợp đã thanh toán cho %s với tổng tiền %s?" />
+        <e k="ips_notice_offerSaved" v="Chào bán sản phẩm đã được mở." />
+        <e k="ips_notice_priceUpdated" v="Giá bán đã được cập nhật." />
+        <e k="ips_notice_offerClosed" v="Chào bán sản phẩm đã được đóng." />
+        <e k="ips_notice_batchClosed" v="Hóa đơn tổng hợp đã thanh toán đã được phát hành." />
+        <e k="ips_notice_batchClosedEmpty" v="Không có gì để lập hóa đơn, hóa đơn tổng hợp chưa được phát hành." />
+        <e k="ips_notice_palletsPurchased" v="Đã mua pallet thành công." />
+        <e k="ips_notice_receiptCreated" v="Đã tạo hóa đơn đã trả %s." />
+        <e k="ips_notice_receiptPaid" v="Đã nhận hóa đơn đã thanh toán %s." />
+        <e k="ips_notice_loadingStoppedFunds" v="Đã dừng nạp: nông trại không đủ tiền trả thêm thể tích." />
+        <e k="ips_error_invoiceIncompatible" v="Phiên bản hoặc API FS25_Invoices không được hỗ trợ. Chức năng bán sản phẩm đã tắt." />
+        <e k="ips_error_noPermission" v="Chỉ người quản lý nông trại mới có thể thực hiện thao tác này." />
+        <e k="ips_error_noFarm" v="Không có nông trại người chơi hợp lệ." />
+        <e k="ips_error_noOffers" v="Không có chào bán sản phẩm nào." />
+        <e k="ips_error_noBatches" v="Không có giao dịch đã trả nào đang chờ lập hóa đơn." />
+        <e k="ips_error_noStock" v="Đầu ra sản xuất này đã hết hàng." />
+        <e k="ips_error_noFullPallets" v="Không có pallet đầu ra đầy nào." />
+        <e k="ips_error_insufficientFunds" v="Nông trại không đủ tiền cho giao dịch này." />
+        <e k="ips_error_offerUnavailable" v="Chào bán sản phẩm này không còn khả dụng." />
+        <e k="ips_error_offerChanged" v="Chào bán đã thay đổi. Hãy làm mới thị trường và thử lại." />
+        <e k="ips_error_invalidPrice" v="Giá bán phải ít nhất là 1 cho mỗi 1.000 lít." />
+        <e k="ips_error_invalidQuantity" v="Số lượng đăng bán phải là số lít nguyên từ 1 đến lượng tồn kho hiện có." />
+        <e k="ips_error_outputMode" v="Đầu ra sản xuất phải dùng chế độ phân phối Lưu trữ." />
+        <e k="ips_error_transactionFailed" v="Không thể hoàn tất giao dịch một cách an toàn." />
+        <e k="ips_error_serverUnavailable" v="Dịch vụ bán sản phẩm không khả dụng trên máy chủ." />
+        <e k="ips_receipt_noteAutomatic" v="Hóa đơn này được tạo tự động." />
+    </elements>
+</l10n>

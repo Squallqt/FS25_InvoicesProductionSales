@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="Üretim satışları" />
+        <e k="ips_tab_market" v="PAZAR" />
+        <e k="ips_tab_offers" v="TEKLİFLERİM" />
+        <e k="ips_tab_batches" v="SATIŞLARIM" />
+        <e k="ips_section_paidPurchases" v="ÖDENMİŞ ALIMLAR (MEVCUT AY)" />
+        <e k="ips_section_paidSalesPendingInvoice" v="ÖDENMİŞ SATIŞLAR ÖZET FATURA BEKLİYOR (MEVCUT AY)" />
+        <e k="ips_col_seller" v="Satıcı" />
+        <e k="ips_col_production" v="Üretim" />
+        <e k="ips_col_product" v="Ürün" />
+        <e k="ips_col_mode" v="Mod" />
+        <e k="ips_col_stock" v="Stok" />
+        <e k="ips_col_pallets" v="Paletler" />
+        <e k="ips_col_price" v="Fiyat / 1.000 l" />
+        <e k="ips_col_buyer" v="Alıcı" />
+        <e k="ips_col_volume" v="Hacim" />
+        <e k="ips_col_amount" v="Tutar" />
+        <e k="ips_col_volumeSold" v="Satılan hacim" />
+        <e k="ips_col_amountReceived" v="Tahsil edilen tutar" />
+        <e k="ips_col_billing" v="Faturalandırma" />
+        <e k="ips_col_status" v="Durum" />
+        <e k="ips_mode_bulk" v="Dökme" />
+        <e k="ips_mode_pallets" v="Paletler" />
+        <e k="ips_status_active" v="Açık" />
+        <e k="ips_status_inactive" v="Kapalı" />
+        <e k="ips_status_paid" v="Ödendi" />
+        <e k="ips_status_pending" v="Beklemede" />
+        <e k="ips_btn_refresh" v="Yenile" />
+        <e k="ips_btn_buyPallets" v="Palet satın al" />
+        <e k="ips_btn_activate" v="Teklifi aç" />
+        <e k="ips_btn_deactivate" v="Teklifi kapat" />
+        <e k="ips_btn_editPrice" v="Fiyatı değiştir" />
+        <e k="ips_btn_closeBatch" v="Fatura düzenle" />
+        <e k="ips_label_pricePer1000L" v="1.000 l başına fiyat" />
+        <e k="ips_label_palletQuantity" v="Palet miktarı" />
+        <e k="ips_label_availablePallets" v="Mevcut dolu paletler" />
+        <e k="ips_label_taxIncluded" v="Vergi dahil" />
+        <e k="ips_dialog_price_prompt" v="1.000 litre başına vergi dahil fiyat girin" />
+        <e k="ips_dialog_offerQuantity_prompt" v="Satışa çıkarılacak miktarı litre olarak girin (en fazla: %s)" />
+        <e k="ips_dialog_pallet_prompt" v="Satın alınacak dolu palet sayısı (en fazla %d)" />
+        <e k="ips_confirm_bulk" v="%s ürününü %s üretiminden, %s satıcısından, 1.000 l başına %s fiyatla yüklemeye başla?" />
+        <e k="ips_confirm_pallets" v="%d dolu %s paletini %s satıcısından %s karşılığında satın al?" />
+        <e k="ips_confirm_activate" v="%s ürününü %s üretiminden pazarda yayınla?" />
+        <e k="ips_confirm_deactivate" v="%s için %s üretimindeki teklifi kapat?" />
+        <e k="ips_confirm_closeBatch" v="%s için toplam %s tutarındaki ödenmiş özet fatura şimdi düzenlensin mi?" />
+        <e k="ips_notice_offerSaved" v="Üretim teklifi açıldı." />
+        <e k="ips_notice_priceUpdated" v="Satış fiyatı güncellendi." />
+        <e k="ips_notice_offerClosed" v="Üretim teklifi kapatıldı." />
+        <e k="ips_notice_batchClosed" v="Ödenmiş özet fatura düzenlendi." />
+        <e k="ips_notice_batchClosedEmpty" v="Faturalandırılacak bir şey yoktu, özet fatura düzenlenmedi." />
+        <e k="ips_notice_palletsPurchased" v="Palet satın alımı başarıyla tamamlandı." />
+        <e k="ips_notice_receiptCreated" v="Ödenmiş %s faturası oluşturuldu." />
+        <e k="ips_notice_receiptPaid" v="Ödenmiş %s faturası alındı." />
+        <e k="ips_notice_loadingStoppedFunds" v="Yükleme durduruldu: çiftliğiniz ek hacmi karşılayamıyor." />
+        <e k="ips_error_invoiceIncompatible" v="Desteklenmeyen FS25_Invoices sürümü veya API'si. Üretim satışları devre dışı." />
+        <e k="ips_error_noPermission" v="Bu işlemi yalnızca bir çiftlik yöneticisi yapabilir." />
+        <e k="ips_error_noFarm" v="Geçerli bir oyuncu çiftliği yok." />
+        <e k="ips_error_noOffers" v="Kullanılabilir üretim satış teklifi yok." />
+        <e k="ips_error_noBatches" v="Faturalandırılmayı bekleyen ödenmiş satış yok." />
+        <e k="ips_error_noStock" v="Bu üretim çıkışı stokta yok." />
+        <e k="ips_error_noFullPallets" v="Dolu çıkış paleti yok." />
+        <e k="ips_error_insufficientFunds" v="Çiftliğinizin bu alım için yeterli parası yok." />
+        <e k="ips_error_offerUnavailable" v="Bu üretim teklifi artık kullanılamıyor." />
+        <e k="ips_error_offerChanged" v="Teklif değişti. Pazarı yenileyip tekrar deneyin." />
+        <e k="ips_error_invalidPrice" v="Satış fiyatı 1.000 litre başına en az 1 olmalıdır." />
+        <e k="ips_error_invalidQuantity" v="Satışa çıkarılan miktar 1 litre ile mevcut stok arasında bir tam sayı olmalıdır." />
+        <e k="ips_error_outputMode" v="Üretim çıkışı Depola dağıtım modunu kullanmalıdır." />
+        <e k="ips_error_transactionFailed" v="Alım güvenli bir şekilde tamamlanamadı." />
+        <e k="ips_error_serverUnavailable" v="Üretim satış hizmeti sunucuda kullanılamıyor." />
+        <e k="ips_receipt_noteAutomatic" v="Bu fatura otomatik olarak oluşturuldu." />
+    </elements>
+</l10n>

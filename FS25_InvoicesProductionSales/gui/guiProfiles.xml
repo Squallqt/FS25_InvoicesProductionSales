@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUIProfiles>
+    <Profile name="ipsSectionHeader" extends="invColumnHeaderBtn">
+        <textColor value="$preset_colorWhite"/>
+    </Profile>
+</GUIProfiles>

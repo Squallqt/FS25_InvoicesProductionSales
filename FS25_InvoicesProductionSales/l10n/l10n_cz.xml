@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="Prodej produkce" />
+        <e k="ips_tab_market" v="TRH" />
+        <e k="ips_tab_offers" v="MOJE NABÍDKY" />
+        <e k="ips_tab_batches" v="MOJE PRODEJE" />
+        <e k="ips_section_paidPurchases" v="ZAPLACENÉ NÁKUPY (AKTUÁLNÍ MĚSÍC)" />
+        <e k="ips_section_paidSalesPendingInvoice" v="ZAPLACENÉ PRODEJE ČEKAJÍCÍ NA SOUHRNNOU FAKTURU (AKTUÁLNÍ MĚSÍC)" />
+        <e k="ips_col_seller" v="Prodejce" />
+        <e k="ips_col_production" v="Výroba" />
+        <e k="ips_col_product" v="Produkt" />
+        <e k="ips_col_mode" v="Režim" />
+        <e k="ips_col_stock" v="Zásoba" />
+        <e k="ips_col_pallets" v="Palety" />
+        <e k="ips_col_price" v="Cena / 1 000 l" />
+        <e k="ips_col_buyer" v="Kupující" />
+        <e k="ips_col_volume" v="Objem" />
+        <e k="ips_col_amount" v="Částka" />
+        <e k="ips_col_volumeSold" v="Prodaný objem" />
+        <e k="ips_col_amountReceived" v="Přijatá částka" />
+        <e k="ips_col_billing" v="Fakturace" />
+        <e k="ips_col_status" v="Stav" />
+        <e k="ips_mode_bulk" v="Volně ložené" />
+        <e k="ips_mode_pallets" v="Palety" />
+        <e k="ips_status_active" v="Otevřená" />
+        <e k="ips_status_inactive" v="Uzavřená" />
+        <e k="ips_status_paid" v="Zaplaceno" />
+        <e k="ips_status_pending" v="Čekající" />
+        <e k="ips_btn_refresh" v="Obnovit" />
+        <e k="ips_btn_buyPallets" v="Koupit palety" />
+        <e k="ips_btn_activate" v="Otevřít nabídku" />
+        <e k="ips_btn_deactivate" v="Zavřít nabídku" />
+        <e k="ips_btn_editPrice" v="Změnit cenu" />
+        <e k="ips_btn_closeBatch" v="Vystavit fakturu" />
+        <e k="ips_label_pricePer1000L" v="Cena za 1 000 l" />
+        <e k="ips_label_palletQuantity" v="Počet palet" />
+        <e k="ips_label_availablePallets" v="Dostupné plné palety" />
+        <e k="ips_label_taxIncluded" v="Včetně DPH" />
+        <e k="ips_dialog_price_prompt" v="Zadejte cenu včetně DPH za 1 000 litrů" />
+        <e k="ips_dialog_offerQuantity_prompt" v="Zadejte nabízené množství v litrech (maximum: %s)" />
+        <e k="ips_dialog_pallet_prompt" v="Počet plných palet k nákupu (maximálně %d)" />
+        <e k="ips_confirm_bulk" v="Zahájit nakládání %s z výroby %s, prodávaného farmou %s za %s na 1 000 l?" />
+        <e k="ips_confirm_pallets" v="Koupit %d plných palet produktu %s od %s za %s?" />
+        <e k="ips_confirm_activate" v="Nabídnout %s z %s na trhu?" />
+        <e k="ips_confirm_deactivate" v="Zavřít nabídku %s z %s?" />
+        <e k="ips_confirm_closeBatch" v="Vystavit nyní již zaplacenou souhrnnou fakturu pro %s v celkové hodnotě %s?" />
+        <e k="ips_notice_offerSaved" v="Nabídka produkce byla otevřena." />
+        <e k="ips_notice_priceUpdated" v="Prodejní cena byla aktualizována." />
+        <e k="ips_notice_offerClosed" v="Nabídka produkce byla uzavřena." />
+        <e k="ips_notice_batchClosed" v="Zaplacená souhrnná faktura byla vystavena." />
+        <e k="ips_notice_batchClosedEmpty" v="Nebylo co fakturovat, souhrnná faktura nebyla vystavena." />
+        <e k="ips_notice_palletsPurchased" v="Nákup palet byl úspěšně dokončen." />
+        <e k="ips_notice_receiptCreated" v="Byla vytvořena zaplacená faktura %s." />
+        <e k="ips_notice_receiptPaid" v="Uhrazená faktura %s byla přijata." />
+        <e k="ips_notice_loadingStoppedFunds" v="Nakládání zastaveno: vaše farma si nemůže dovolit další objem." />
+        <e k="ips_error_invoiceIncompatible" v="Nepodporovaná verze nebo API FS25_Invoices. Prodej produkce je deaktivován." />
+        <e k="ips_error_noPermission" v="Tuto akci může provést pouze správce farmy." />
+        <e k="ips_error_noFarm" v="Není dostupná žádná platná farma hráče." />
+        <e k="ips_error_noOffers" v="Nejsou dostupné žádné nabídky prodeje produkce." />
+        <e k="ips_error_noBatches" v="Žádné zaplacené prodeje nečekají na fakturaci." />
+        <e k="ips_error_noStock" v="Tento výstup výroby není skladem." />
+        <e k="ips_error_noFullPallets" v="Nejsou dostupné žádné plné výstupní palety." />
+        <e k="ips_error_insufficientFunds" v="Vaše farma nemá na tento nákup dostatek peněz." />
+        <e k="ips_error_offerUnavailable" v="Tato nabídka produkce již není dostupná." />
+        <e k="ips_error_offerChanged" v="Nabídka se změnila. Obnovte trh a zkuste to znovu." />
+        <e k="ips_error_invalidPrice" v="Prodejní cena musí být alespoň 1 za 1 000 litrů." />
+        <e k="ips_error_invalidQuantity" v="Nabízené množství musí být celé číslo od 1 litru do výše dostupných zásob." />
+        <e k="ips_error_outputMode" v="Výstup výroby musí používat distribuční režim Skladovat." />
+        <e k="ips_error_transactionFailed" v="Nákup nebylo možné bezpečně dokončit." />
+        <e k="ips_error_serverUnavailable" v="Služba prodeje produkce není na serveru dostupná." />
+        <e k="ips_receipt_noteAutomatic" v="Tato faktura byla vytvořena automaticky." />
+    </elements>
+</l10n>

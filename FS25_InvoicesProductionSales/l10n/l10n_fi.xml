@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <elements>
+        <e k="ips_menu_title" v="Tuotantomyynti" />
+        <e k="ips_tab_market" v="MARKKINAT" />
+        <e k="ips_tab_offers" v="OMAT TARJOUKSET" />
+        <e k="ips_tab_batches" v="OMAT MYYNNIT" />
+        <e k="ips_section_paidPurchases" v="MAKSETUT OSTOT (KULUVA KUUKAUSI)" />
+        <e k="ips_section_paidSalesPendingInvoice" v="MAKSETUT MYYNNIT ODOTTAVAT KOONTILASKUA (KULUVA KUUKAUSI)" />
+        <e k="ips_col_seller" v="Myyjä" />
+        <e k="ips_col_production" v="Tuotanto" />
+        <e k="ips_col_product" v="Tuote" />
+        <e k="ips_col_mode" v="Tila" />
+        <e k="ips_col_stock" v="Varasto" />
+        <e k="ips_col_pallets" v="Lavat" />
+        <e k="ips_col_price" v="Hinta / 1 000 l" />
+        <e k="ips_col_buyer" v="Ostaja" />
+        <e k="ips_col_volume" v="Määrä" />
+        <e k="ips_col_amount" v="Summa" />
+        <e k="ips_col_volumeSold" v="Myyty määrä" />
+        <e k="ips_col_amountReceived" v="Saapunut summa" />
+        <e k="ips_col_billing" v="Laskutus" />
+        <e k="ips_col_status" v="Tila" />
+        <e k="ips_mode_bulk" v="Irtotavara" />
+        <e k="ips_mode_pallets" v="Lavat" />
+        <e k="ips_status_active" v="Avattu" />
+        <e k="ips_status_inactive" v="Suljettu" />
+        <e k="ips_status_paid" v="Maksettu" />
+        <e k="ips_status_pending" v="Odottaa" />
+        <e k="ips_btn_refresh" v="Päivitä" />
+        <e k="ips_btn_buyPallets" v="Osta lavoja" />
+        <e k="ips_btn_activate" v="Avaa tarjous" />
+        <e k="ips_btn_deactivate" v="Sulje tarjous" />
+        <e k="ips_btn_editPrice" v="Muuta hintaa" />
+        <e k="ips_btn_closeBatch" v="Luo lasku" />
+        <e k="ips_label_pricePer1000L" v="Hinta / 1 000 l" />
+        <e k="ips_label_palletQuantity" v="Lavojen määrä" />
+        <e k="ips_label_availablePallets" v="Täysiä lavoja saatavilla" />
+        <e k="ips_label_taxIncluded" v="Sisältää ALV:n" />
+        <e k="ips_dialog_price_prompt" v="Anna verollinen hinta 1 000 litralle" />
+        <e k="ips_dialog_offerQuantity_prompt" v="Anna myyntiin asetettava määrä litroina (enintään: %s)" />
+        <e k="ips_dialog_pallet_prompt" v="Ostettavien täysien lavojen määrä (enintään %d)" />
+        <e k="ips_confirm_bulk" v="Aloitetaanko tuotteen %s lastaus tuotannosta %s, myyjänä %s, hintaan %s / 1 000 l?" />
+        <e k="ips_confirm_pallets" v="Ostetaanko %d täyttä lavaa tuotetta %s myyjältä %s hintaan %s?" />
+        <e k="ips_confirm_activate" v="Julkaistaanko %s tuotannosta %s markkinoilla?" />
+        <e k="ips_confirm_deactivate" v="Suljetaanko tuotteen %s tarjous tuotannosta %s?" />
+        <e k="ips_confirm_closeBatch" v="Luodaanko maksettu koontilasku ostajalle %s, yhteensä %s?" />
+        <e k="ips_notice_offerSaved" v="Tuotantotarjous on avattu." />
+        <e k="ips_notice_priceUpdated" v="Myyntihinta on päivitetty." />
+        <e k="ips_notice_offerClosed" v="Tuotantotarjous on suljettu." />
+        <e k="ips_notice_batchClosed" v="Maksettu koontilasku on luotu." />
+        <e k="ips_notice_batchClosedEmpty" v="Laskutettavaa ei ollut, koontilaskua ei luotu." />
+        <e k="ips_notice_palletsPurchased" v="Lavojen osto onnistui." />
+        <e k="ips_notice_receiptCreated" v="Maksettu lasku %s on luotu." />
+        <e k="ips_notice_receiptPaid" v="Maksettu lasku %s on vastaanotettu." />
+        <e k="ips_notice_loadingStoppedFunds" v="Lastaus pysäytettiin: maatilallasi ei ole varaa lisämäärään." />
+        <e k="ips_error_invoiceIncompatible" v="FS25_Invoices-versiota tai API:a ei tueta. Tuotantomyynti on poistettu käytöstä." />
+        <e k="ips_error_noPermission" v="Vain maatilan johtaja voi tehdä tämän toiminnon." />
+        <e k="ips_error_noFarm" v="Kelvollista pelaajan maatilaa ei ole saatavilla." />
+        <e k="ips_error_noOffers" v="Tuotantomyyntitarjouksia ei ole saatavilla." />
+        <e k="ips_error_noBatches" v="Ei laskutusta odottavia maksettuja myyntejä." />
+        <e k="ips_error_noStock" v="Tämä tuotannon tuote on loppu." />
+        <e k="ips_error_noFullPallets" v="Täysiä tuotelavoja ei ole saatavilla." />
+        <e k="ips_error_insufficientFunds" v="Maatilallasi ei ole tarpeeksi rahaa tähän ostoon." />
+        <e k="ips_error_offerUnavailable" v="Tämä tuotantotarjous ei ole enää saatavilla." />
+        <e k="ips_error_offerChanged" v="Tarjous muuttui. Päivitä markkinat ja yritä uudelleen." />
+        <e k="ips_error_invalidPrice" v="Myyntihinnan on oltava vähintään 1 / 1 000 litraa." />
+        <e k="ips_error_invalidQuantity" v="Myyntimäärän on oltava kokonaisluku väliltä 1 litra ja käytettävissä oleva varasto." />
+        <e k="ips_error_outputMode" v="Tuotannon tuotteen jakelutilan on oltava Varastoi." />
+        <e k="ips_error_transactionFailed" v="Ostoa ei voitu suorittaa turvallisesti." />
+        <e k="ips_error_serverUnavailable" v="Tuotantomyyntipalvelu ei ole käytettävissä palvelimella." />
+        <e k="ips_receipt_noteAutomatic" v="Tämä lasku luotiin automaattisesti." />
+    </elements>
+</l10n>
